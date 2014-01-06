@@ -46,7 +46,7 @@
 		</copy>
 	
 		<exec dir="${build.dir.gradle}" executable="cmd" osfamily="windows">
-			<arg line="/c gradle build" />
+			<arg line="/c gradlew build" />
 		</exec>
 		
 		<move file="${build.dir.gradle}\build\libs\modid-1.0.jar" tofile="${build.dir.output}\${build.mod_name}\${build.mod_name} ${build.version}-${build.build_number}.jar" />
