@@ -1,22 +1,22 @@
-ï»¿# MISC
+
 itemGroup.ThaumicTinkerer=Thaumic Tinkerer
 ttmisc.connector.set=Position eingestellt!
 ttmisc.connector.complete=Das Binden ist komplett!
 ttmisc.connector.notinterf=Das ist kein Transvektorblock.
 ttmisc.connector.interffail=Du kannst keine Transvektor-Schnittstelle mit einer anderen verbinden.
 ttmisc.connector.dislfail=Du kannst keine Transvektor-Schnittstelle mit einer anderen verbinden.
-ttmisc.connector.notpresent=Der Transvektorblock ist nicht prÃ¤sent.
-ttmisc.connector.toofar=Der ursprÃ¼ngliche Transvektorblock ist zu weit entfernt.
+ttmisc.connector.notpresent=Der Transvektorblock ist nicht präsent.
+ttmisc.connector.toofar=Der ursprüngliche Transvektorblock ist zu weit entfernt.
 ttmisc.leftClick=Linksklick
 ttmisc.rightClick=Rechtsklick
 ttmisc.redstoneControl=Redstone-Kontrolle
-ttmisc.animationTablet.notRotatable=Du kannst das Tablett nicht rotieren, wÃ¤hrend es aktiviert ist.
+ttmisc.animationTablet.notRotatable=Du kannst das Tablett nicht rotieren, während es aktiviert ist.
 ttmisc.focusDislocation.tooltip=Aktuell dislokierend
 ttmisc.focusDislocation.tooltipExtra=Extra-Inhalt
-ttmisc.inactive=Â§cInaktiv
-ttmisc.active=Â§aAktiv
-ttmisc.soulMould.nonAssigned=Â§6Keine Form
-ttmisc.soulMould.pattern=Â§6Aktuelle Form: %s
+ttmisc.inactive=§cInaktiv
+ttmisc.active=§aAktiv
+ttmisc.soulMould.nonAssigned=§6Keine Form
+ttmisc.soulMould.pattern=§6Aktuelle Form: %s
 ttmisc.all=Alle
 ttmisc.none=Nichts
 ttmisc.child=Kinder
@@ -24,11 +24,11 @@ ttmisc.adult=Erwachsene
 ttmisc.baseCost=Basiskosten
 ttmisc.clickToRemove=Klicke zum Entfernen
 ttmisc.startEnchant=Starte Verzaubern
-ttmisc.full=Â§cVoll
-ttmisc.notAbsorbing=Â§cNicht Absorbierend
-ttmisc.absorbing=Â§aAbsorbierend
+ttmisc.full=§cVoll
+ttmisc.notAbsorbing=§cNicht Absorbierend
+ttmisc.absorbing=§aAbsorbierend
 ttmisc.shareTome.write=Forschung niedergeschrieben!
-ttmisc.shareTome.notOnline=Der Spieler, dem diese Forschung gehÃ¶rt, ist nicht online.
+ttmisc.shareTome.notOnline=Der Spieler, dem diese Forschung gehört, ist nicht online.
 ttmisc.shareTome.sync=Forschung erlangt.
 ttmisc.shareTome.noAssign=Nicht zugewiesen
 ttmisc.shareTome.playerName=Gebunden an die Forschung von %s.
@@ -39,7 +39,7 @@ ttmisc.mode.pick.1=Quadrat-Modus
 ttmisc.mode.pick.2=Linien-Modus
 ttmisc.mode.shovel.0=Block-Modus
 ttmisc.mode.shovel.1=Quadrat-Modus
-ttmisc.mode.shovel.2=SÃ¤ulen-Modus
+ttmisc.mode.shovel.2=Säulen-Modus
 ttmisc.mode.axe.0=Block-Modus
 ttmisc.mode.axe.1=Quadrat-Modus
 ttmisc.mode.axe.2=Baum-Modus
@@ -54,8 +54,8 @@ ttmisc.distance=Entfernung
 ttmisc.lockedGate=Erlaube Teleports hierher
 ttmisc.destination=Unbenanntes Ziel
 ttmisc.entrancePoint=Eingangspunkt
-ttmisc.numberKeys=Nutze die Nummerntasten fÃ¼r schnellen Wechsel zwischen Zielorten.
-ttmisc.spaceToReset=DrÃ¼cke SPACE, um zum Eingangspunkt zurÃ¼ckzukehren.
+ttmisc.numberKeys=Nutze die Nummerntasten für schnellen Wechsel zwischen Zielorten.
+ttmisc.spaceToReset=Drücke SPACE, um zum Eingangspunkt zurückzukehren.
 ttmisc.destinationInd=(Zielort %s)
 ttmisc.clickToTeleport=Shift + Linksklick zum Teleportieren
 ttmisc.destinations=Zielorte:
@@ -65,8 +65,8 @@ ttmisc.noTeleport=Das Himmelstor am Zielort erlaubt keine Teleports zu ihm.
 # ITEM NAMES
 item.ttinkerer:darkQuartz.name=Rauchiger Quarz
 item.ttinkerer:connector.name=Transvektoren-Binder
-item.ttinkerer:gaseousLight.name=GasfÃ¶rmige Illuminae
-item.ttinkerer:gaseousShadow.name=GasfÃ¶rmige Tenebrae
+item.ttinkerer:gaseousLight.name=Gasförmige Illuminae
+item.ttinkerer:gaseousShadow.name=Gasförmige Tenebrae
 item.ttinkerer:gasRemover.name=Dampf-Dissipator
 item.ttinkerer:spellCloth.name=Entzauberungstuch
 item.ttinkerer:focusFlight.name=Stabfokus: Aufsteigen
@@ -80,7 +80,7 @@ item.ttinkerer:focusSmelt.name=Stabfokus: Efreet's Flamme
 item.ttinkerer:focusHeal.name=Stabfokus: Heilen
 item.ttinkerer:focusEnderChest.name=Stabfokus: Enderspalt
 item.ttinkerer:bloodSword.name=Klinge des Verfluchten Geistes
-item.ttinkerer:revealingHelm.name=Helm der EnthÃ¼llung
+item.ttinkerer:revealingHelm.name=Helm der Enthüllung
 item.ttinkerer:infusedInkwell.name=Infundiertes Schreibset
 item.ttinkerer:focusDeflect.name=Stabfokus: Verzerrung
 item.ttinkerer:shareBook.name=Buch des Wissensteilens
@@ -92,7 +92,7 @@ item.ttinkerer:ichorCloth.name=Ichortuch
 item.ttinkerer:ichorium.name=Ichorium
 item.ttinkerer:ichorNugget.name=Ichoriumnugget
 item.ttinkerer:ichorCap.name=Ichoriumstabkappe
-item.ttinkerer:ichorclothRod.name=IchortuchverstÃ¤rkter Silberholz-Stabkern
+item.ttinkerer:ichorclothRod.name=Ichortuchverstärkter Silberholz-Stabkern
 item.ttinkerer:netherShard.name=Netherscherbe
 item.ttinkerer:enderShard.name=Enderscherbe
 item.ttinkerer:ichorclothHelm.name=Ichortuchkappe
@@ -100,8 +100,8 @@ item.ttinkerer:ichorclothChest.name=Ichortuchrobe
 item.ttinkerer:ichorclothLegs.name=Ichortuchhose
 item.ttinkerer:ichorclothBoots.name=Ichortuchstiefel
 item.ttinkerer:ichorclothHelmGem.name=Kappe der Abgrundtiefe
-item.ttinkerer:ichorclothChestGem.name=Robe der StratosphÃ¤re
-item.ttinkerer:ichorclothLegsGem.name=Hose der Brennenden HÃ¼lle
+item.ttinkerer:ichorclothChestGem.name=Robe der Stratosphäre
+item.ttinkerer:ichorclothLegsGem.name=Hose der Brennenden Hülle
 item.ttinkerer:ichorclothBootsGem.name=Stiefel des Horizontalen Schildes
 item.ttinkerer:catAmulet.name=Katzenamulett
 item.ttinkerer:ichorPick.name=Ichoriumspitzhacke
@@ -119,12 +119,12 @@ item.ttinkerer:focusShadowbeam.name=Stabfokus: Dunkelstrahl
 item.ttinkerer:focusXPDrain.name=Stabfokus: Erfahrungsabsorption
 item.ttinkerer:protoclay.name=Protolehm
 item.ttinkerer:skyPearl.name=Himmelsperle
-item.ttinkerer:focusRecall.name=Stabfokus: HimmelsrÃ¼ckruf
+item.ttinkerer:focusRecall.name=Stabfokus: Himmelsrückruf
 
 # BLOCK NAMES
 tile.ttinkerer:darkQuartz.name=Rauchiger Quarzblock
-tile.ttinkerer:darkQuartzChiseled.name=GemeiÃŸelter Rauchiger Quarzblock
-tile.ttinkerer:darkQuartzPillar.name=Rauchige QuarzsÃ¤ule
+tile.ttinkerer:darkQuartzChiseled.name=Gemeißelter Rauchiger Quarzblock
+tile.ttinkerer:darkQuartzPillar.name=Rauchige Quarzsäule
 tile.ttinkerer:darkQuartzSlab.name=Rauchige Quarzstufe
 tile.ttinkerer:darkQuartzStairs.name=Rauchige Quarztreppe
 tile.ttinkerer:interface.name=Transvektor-Schnittstelle
@@ -136,7 +136,7 @@ tile.ttinkerer:funnel.name=Essentia-Trichter
 tile.ttinkerer:dislocator.name=Transvektor-Dislokator
 tile.ttinkerer:repairer.name=Thaumischer Restaurierer
 tile.ttinkerer:aspectAnalyzer.name=Aspektanalysierer
-tile.ttinkerer:platform.name=Ã„therische Plattform
+tile.ttinkerer:platform.name=Ätherische Plattform
 
 # KAMI BLOCK NAMES
 tile.ttinkerer:warpGate.name=Himmelstor
@@ -144,14 +144,14 @@ tile.ttinkerer:warpGate.name=Himmelstor
 # ENCHANTMENT NAMES
 enchantment.ttinkerer:ascentBoost=Aufstiegs-Boost
 enchantment.ttinkerer:slowFall=Langsamer Fall
-enchantment.ttinkerer:autoSmelt=Flammende BerÃ¼hrung
+enchantment.ttinkerer:autoSmelt=Flammende Berührung
 enchantment.ttinkerer:desintegrate=Desintegrieren
 enchantment.ttinkerer:quickDraw=Schnelles Spannen
 enchantment.ttinkerer:vampirism=Vampirismus
 
 # WAND COMPONENTS
-item.Wand.ichor.cap=IchoriumgeschmÃ¼ckter
-item.Wand.ichorcloth.rod=IchortuchverstÃ¤rkter Silberholz -
+item.Wand.ichor.cap=Ichoriumgeschmückter
+item.Wand.ichorcloth.rod=Ichortuchverstärkter Silberholz -
 
 # RESEARCH
 ttresearch.prefix=[TT] 
@@ -161,47 +161,47 @@ tc.research_category.TT_ENCHANTING=Verzaubern
 # -- COMPUTERCRAFT PERIPHERALS
 ttresearch.name.PERIPHERALS=Computercraft-Peripherien
 ttresearch.lore.PERIPHERALS=Wenn Technologie auf Magie trifft
-ttresearch.page.PERIPHERALS.0=Thaumic Tinkerer erlaubt einigen BlÃ¶cken, die es hinzufÃ¼gt, sowie manchen Thaumcraft-BlÃ¶cken, als ComputerCraft-Peripherien genutzt zu werden.<BR><BR>Aus praktischen GrÃ¼nden ist die Methoden-Dokumentation fÃ¼r diese Peripherien eine externe Webseite. Wenn du jetzt ENTER drÃ¼ckst, wird es dich zu ihr fÃ¼hren.<BR><BR>Leider funktioniert das nicht auf allen Systemen. Sollte das der Fall sein, gib "vazkii.us/tt/docs.php" in deinen Browser ein
+ttresearch.page.PERIPHERALS.0=Thaumic Tinkerer erlaubt einigen Blöcken, die es hinzufügt, sowie manchen Thaumcraft-Blöcken, als ComputerCraft-Peripherien genutzt zu werden.<BR><BR>Aus praktischen Gründen ist die Methoden-Dokumentation für diese Peripherien eine externe Webseite. Wenn du jetzt ENTER drückst, wird es dich zu ihr führen.<BR><BR>Leider funktioniert das nicht auf allen Systemen. Sollte das der Fall sein, gib "vazkii.us/tt/docs.php" in deinen Browser ein
 # Note: For people who localize the mod. If you have custom documentation, feel free to include in your PR a
 # link to it and the short URL (see above) you want for it on my website and I'll add it. 
 ttresearch.webpage.peripherals=https://github.com/Vazkii/ThaumicTinkerer/wiki/Peripheral-Documentation
-
+ttcomputer.dissipator=Dissipating
 # -- ASPECT ANALYZER
 ttresearch.name.ASPECT_ANALYZER=Aspektanalysierer
 ttresearch.lore.ASPECT_ANALYZER=Computerisiertes Scannen
-ttresearch.page.ASPECT_ANALYZER.0=Du hast ein GerÃ¤t kreiert, dass es Computern erlaubt, zu wissen, welche Aspekte ein Item hat.<BR><BR>Dieser Block funktioniert wie ein normales Inventar, jegliches Item in ihm kann mit einem Computer gescannt werden. Besuche den Eintrag der Peripherien-Dokumentation fÃ¼r mehr Infos.
+ttresearch.page.ASPECT_ANALYZER.0=Du hast ein Gerät kreiert, dass es Computern erlaubt, zu wissen, welche Aspekte ein Item hat.<BR><BR>Dieser Block funktioniert wie ein normales Inventar, jegliches Item in ihm kann mit einem Computer gescannt werden. Besuche den Eintrag der Peripherien-Dokumentation für mehr Infos.
 
 # -- SMOKEY QUARTZ
 ttresearch.name.DARK_QUARTZ=Rauchiger Quarz
 ttresearch.lore.DARK_QUARTZ=Schatten des Tages
-ttresearch.page.DARK_QUARTZ.0=Rauchiger Quarz ist ziemlich genau Quarz, nur negativ. Alle regulÃ¤ren BlÃ¶cke, die mit Quarz gemacht werden kÃ¶nnen, kÃ¶nnen auch mit Rauchigem Quarz gemacht werden, Und die sind schwarz.<BR><BR>Rauchiger Quarz kann mit einem StÃ¼ck Kohle oder Holzkohle zum FÃ¤rben sowie ein paar StÃ¼cken regulÃ¤ren Quarzes gemacht werden.
+ttresearch.page.DARK_QUARTZ.0=Rauchiger Quarz ist ziemlich genau Quarz, nur negativ. Alle regulären Blöcke, die mit Quarz gemacht werden können, können auch mit Rauchigem Quarz gemacht werden, Und die sind schwarz.<BR><BR>Rauchiger Quarz kann mit einem Stück Kohle oder Holzkohle zum Färben sowie ein paar Stücken regulären Quarzes gemacht werden.
 
 # -- TOME OF KNOWLEDGE SHARING
 ttresearch.name.SHARE_TOME=Buch des Wissensteilens
 ttresearch.lore.SHARE_TOME=Tagebuch eines Goldfischs
-ttresearch.page.SHARE_TOME.0=Wenn du mÃ¶chtest, dein Wissen mit dem Rest der Welt zu teilen, ist dieses Item etwas fÃ¼r dich.<BR><BR>Wenn du dieses Buch einfach rechtsklickst und es einem anderen gibst, wird er, wenn du online bist, all die Forschung, die du bisher entdeckt hast, erhalten.<BR><BR>(Anmerkung: In dem Fall, dass hier kein Rezept zu sehen ist, wurde es deaktiviert und das Buch kann nur durch das Kreativ-MenÃ¼ erhalten werden)
+ttresearch.page.SHARE_TOME.0=Wenn du möchtest, dein Wissen mit dem Rest der Welt zu teilen, ist dieses Item etwas für dich.<BR><BR>Wenn du dieses Buch einfach rechtsklickst und es einem anderen gibst, wird er, wenn du online bist, all die Forschung, die du bisher entdeckt hast, erhalten.<BR><BR>(Anmerkung: In dem Fall, dass hier kein Rezept zu sehen ist, wurde es deaktiviert und das Buch kann nur durch das Kreativ-Menü erhalten werden)
 
 # -- TRANSVECTOR INTERFACE
 ttresearch.name.INTERFACE=Transvektor-Schnittstelle
 ttresearch.lore.INTERFACE=Nicht verbunden mit nyuu
-ttresearch.page.INTERFACE.0=The thing is, there's only six sides to a block..." - Direwolf20<BR><BR>Myth = Busted! Dein neuestes Konstrukt kann an einen Block in unmittelbarer NÃ¤he gebunden werden. Seine Seiten werden die Seiten des ausgewÃ¤hlten Blocks nachahmen, und es wird als Erweiterung arbeiten. Es kann BuildCraft-, IC2- und TE3-Energie akzeptieren, Essentia, Items und FlÃ¼ssigkeiten, auch ist es fÃ¤hig, die letzteren beiden zu exportieren.<BR>[fortgesetzt]
-ttresearch.page.INTERFACE.1=Um eine Schnittstelle an einen anderen Block zu binden, wirst du ein spezielles Werkzeug benÃ¶tigen. Was du Transvektoren-Binder nennst, sollte den Job erledigen.<BR><BR>Mit dem Rechtsklicken auf die Schnittstelle gefolgt vom Rechtsklicken auf das Ziel werden beide verbunden und bereit fÃ¼r die Arbeit. Die Reichweite ist kurz, lediglich vier BlÃ¶cke. (Anmerkung: Buildcraft-Rohre mÃ¼ssen entfernt und neu platziert werden, um zu arbeiten)
-ttresearch.page.INTERFACE.2=Es ist auch mÃ¶glich, indem du diesen Block mit irgendeinem anderen anklickst, ihn als den gehaltenen Block zu tarnen. Um die HÃ¼lle zu entfernen, rechtsklicke einfach auf den getarnten Block mit einer leeren Hand.
+ttresearch.page.INTERFACE.0=The thing is, there's only six sides to a block..." - Direwolf20<BR><BR>Myth = Busted! Dein neuestes Konstrukt kann an einen Block in unmittelbarer Nähe gebunden werden. Seine Seiten werden die Seiten des ausgewählten Blocks nachahmen, und es wird als Erweiterung arbeiten. Es kann BuildCraft-, IC2- und TE3-Energie akzeptieren, Essentia, Items und Flüssigkeiten, auch ist es fähig, die letzteren beiden zu exportieren.<BR>[fortgesetzt]
+ttresearch.page.INTERFACE.1=Um eine Schnittstelle an einen anderen Block zu binden, wirst du ein spezielles Werkzeug benötigen. Was du Transvektoren-Binder nennst, sollte den Job erledigen.<BR><BR>Mit dem Rechtsklicken auf die Schnittstelle gefolgt vom Rechtsklicken auf das Ziel werden beide verbunden und bereit für die Arbeit. Die Reichweite ist kurz, lediglich vier Blöcke. (Anmerkung: Buildcraft-Rohre müssen entfernt und neu platziert werden, um zu arbeiten)
+ttresearch.page.INTERFACE.2=Es ist auch möglich, indem du diesen Block mit irgendeinem anderen anklickst, ihn als den gehaltenen Block zu tarnen. Um die Hülle zu entfernen, rechtsklicke einfach auf den getarnten Block mit einer leeren Hand.
 
 # -- GASEOUS ILLUMINAE
-ttresearch.name.GASEOUS_LIGHT=GasfÃ¶rmige Illuminae
-ttresearch.lore.GASEOUS_LIGHT=Helligkeit auÃŸer Sichtweite
-ttresearch.page.GASEOUS_LIGHT.0=Du hast die Feinheiten des Lichts studiert und einen Weg gefunden, komplett unsichtbares Licht durch das ErfÃ¼llen einer Phiole mit rohem Licht zu kreieren.<BR><BR>Diese Phiole enthÃ¤lt ein konzentriertes Extrakt von gasfÃ¶rmigen Illuminae, das durch einen Rechtsklick freigelassen werden kann, sich dann relativ schnell in der Umgebung verteilen wird und diese erhellen wird.
+ttresearch.name.GASEOUS_LIGHT=Gasförmige Illuminae
+ttresearch.lore.GASEOUS_LIGHT=Helligkeit außer Sichtweite
+ttresearch.page.GASEOUS_LIGHT.0=Du hast die Feinheiten des Lichts studiert und einen Weg gefunden, komplett unsichtbares Licht durch das Erfüllen einer Phiole mit rohem Licht zu kreieren.<BR><BR>Diese Phiole enthält ein konzentriertes Extrakt von gasförmigen Illuminae, das durch einen Rechtsklick freigelassen werden kann, sich dann relativ schnell in der Umgebung verteilen wird und diese erhellen wird.
 
 # -- GASEOUS TENEBRAE
-ttresearch.name.GASEOUS_SHADOW=GasfÃ¶rmige Tenebrae
+ttresearch.name.GASEOUS_SHADOW=Gasförmige Tenebrae
 ttresearch.lore.GASEOUS_SHADOW=Ein roter Handball?
-ttresearch.page.GASEOUS_SHADOW.0=Du hast die Feinheiten des Schattens studiert und einen Weg gefunden, gasfÃ¶rmige Dunkelheit durch das ErfÃ¼llen einer Phiole mit rohem Schatten zu kreieren.<BR><BR>Diese Phiole enthÃ¤lt ein konzentriertes Extrakt von gasfÃ¶rmigen Tenebrae, das durch einen Rechtsklick freigelassen werden kann, sich dann relativ schnell in der Umgebung verteilen wird und diese verdunkeln wird.
+ttresearch.page.GASEOUS_SHADOW.0=Du hast die Feinheiten des Schattens studiert und einen Weg gefunden, gasförmige Dunkelheit durch das Erfüllen einer Phiole mit rohem Schatten zu kreieren.<BR><BR>Diese Phiole enthält ein konzentriertes Extrakt von gasförmigen Tenebrae, das durch einen Rechtsklick freigelassen werden kann, sich dann relativ schnell in der Umgebung verteilen wird und diese verdunkeln wird.
 
 # -- FUME DISSIPATOR
 ttresearch.name.GAS_REMOVER=Dampf-Dissipator
 ttresearch.lore.GAS_REMOVER=Ryuuji's Helfer
-ttresearch.page.GAS_REMOVER.0=Nachdem du GasfÃ¶rmige Illuminae und Tenebrae kennst, denkst du, dass es ziemliche Schwierigkeiten bereitet, sie loszuwerden. Mit diesem Item, wenn du es Shift-rechtsklickst, wird sich alles Gas in der NÃ¤he auflÃ¶sen.
+ttresearch.page.GAS_REMOVER.0=Nachdem du Gasförmige Illuminae und Tenebrae kennst, denkst du, dass es ziemliche Schwierigkeiten bereitet, sie loszuwerden. Mit diesem Item, wenn du es Shift-rechtsklickst, wird sich alles Gas in der Nähe auflösen.
 
 # -- SPELLBINDING CLOTH
 ttresearch.name.SPELL_CLOTH=Entzauberungstuch
@@ -211,258 +211,283 @@ ttresearch.page.SPELL_CLOTH.0=Durch das Mischen von Verzaubertem Stoff mit roher
 # -- DYNAMISM TABLET
 ttresearch.name.ANIMATION_TABLET=Dynamiktablett
 ttresearch.lore.ANIMATION_TABLET=Ich bin Level 78...
-ttresearch.page.ANIMATION_TABLET.0=Du hast dich entschieden, weitere Verwendungszwecke fÃ¼r die Golem-Animationskerne zu entdecken, Und dies ist die Frucht deiner Arbeit.<BR><BR>Dieses Tablett akzeptiert ein Item, das es mit mystischer Energie animiert. Indem du die KnÃ¶pfe rechts und links im Interface nutzt, kannst du wÃ¤hlen, ob das Tablett mit dem Item einen Links- oder Rechtsklick ausfÃ¼hrt. Der Knopf unten kontrolliert, ob das Tablett immer reagiert, wenn es kann oder nur, wenn es ein Redstone-Signal erhÃ¤lt.<BR><BR>Nahezu alles kann animiert werden, einschlieÃŸlich BlÃ¶cke. Der Typ des Werkzeugs im Tablett definiert auch, wie schnell etwas abgebaut wird, wie zu erwarten.
+ttresearch.page.ANIMATION_TABLET.0=Du hast dich entschieden, weitere Verwendungszwecke für die Golem-Animationskerne zu entdecken, Und dies ist die Frucht deiner Arbeit.<BR><BR>Dieses Tablett akzeptiert ein Item, das es mit mystischer Energie animiert. Indem du die Knöpfe rechts und links im Interface nutzt, kannst du wählen, ob das Tablett mit dem Item einen Links- oder Rechtsklick ausführt. Der Knopf unten kontrolliert, ob das Tablett immer reagiert, wenn es kann oder nur, wenn es ein Redstone-Signal erhält.<BR><BR>Nahezu alles kann animiert werden, einschließlich Blöcke. Der Typ des Werkzeugs im Tablett definiert auch, wie schnell etwas abgebaut wird, wie zu erwarten.
 
 # -- WAND FOCUS: UPRISING
 ttresearch.name.FOCUS_FLIGHT=Stabfokus: Aufsteigen
 ttresearch.lore.FOCUS_FLIGHT=Ist es das, was sie in ALfheim benutzen?
-ttresearch.page.FOCUS_FLIGHT.0=Indem du das Wissen, Dinge mit Luft umherzutreiben, das du durch das Kreieren des Schwerts des Zephirs erworben hast, nutzt, hast du einen Stabfokus kreiert, der den Nutzer in die Richtung zu wirbeln, in die er schaut.<BR><BR>Wenn jemand durch die Nutzung dieses Fokus herumgewirbelt wird, wird jegliche sich ansammelnde Gravitationsenergie negiert, was mÃ¶glichen Fallschaden, den der Nutzer erleiden wÃ¼rde, annulliert.
+ttresearch.page.FOCUS_FLIGHT.0=Indem du das Wissen, Dinge mit Luft umherzutreiben, das du durch das Kreieren des Schwerts des Zephirs erworben hast, nutzt, hast du einen Stabfokus kreiert, der den Nutzer in die Richtung zu wirbeln, in die er schaut.<BR><BR>Wenn jemand durch die Nutzung dieses Fokus herumgewirbelt wird, wird jegliche sich ansammelnde Gravitationsenergie negiert, was möglichen Fallschaden, den der Nutzer erleiden würde, annulliert.
 
 # -- WAND FOCUS: DISLOCATION
 ttresearch.name.FOCUS_DISLOCATION=Stabfokus: Dislokation
-ttresearch.lore.FOCUS_DISLOCATION=Bau die Burg in deinem Kopf, auf dass sie niemals stÃ¼rze
-ttresearch.page.FOCUS_DISLOCATION.0=Du hast einen Stabfokus kreiert, der auf dem Fokus des Gleichen Handels basiert. Der Unterschied ist, dass dieser nicht nur den Fingerabdruck des Objektes hÃ¤lt, sondern das Objekt selbst, was erlaubt, es anderswo zu platzieren.<BR><BR>Um einen Block transportabel zu machen, rechtsklicke ihn. Um ihn wieder zu platzieren, rechtsklicke irgendwo anders. Dieser Fokus kann nahezu alles transportieren, einschlieÃŸlich Truhen und Monster-Spawner.
-ttresearch.page.FOCUS_DISLOCATION.1=Die Vis-Kosten werden beim Aufnehmen des Blocks abgerechnet. Ihn zu platzieren, ist kostenlos.<BR><BR>Wegen der Menge an Energie, die fÃ¼r die Dislokation erforderlich ist, kosten BlÃ¶cke mit tile entities (wie Truhen oder Ã–fen) 5x so viel Vis wie normal. Monster-Spawner, im Besonderen, kosten stattdessen 20x so viel.
+ttresearch.lore.FOCUS_DISLOCATION=Bau die Burg in deinem Kopf, auf dass sie niemals stürze
+ttresearch.page.FOCUS_DISLOCATION.0=Du hast einen Stabfokus kreiert, der auf dem Fokus des Gleichen Handels basiert. Der Unterschied ist, dass dieser nicht nur den Fingerabdruck des Objektes hält, sondern das Objekt selbst, was erlaubt, es anderswo zu platzieren.<BR><BR>Um einen Block transportabel zu machen, rechtsklicke ihn. Um ihn wieder zu platzieren, rechtsklicke irgendwo anders. Dieser Fokus kann nahezu alles transportieren, einschließlich Truhen und Monster-Spawner.
+ttresearch.page.FOCUS_DISLOCATION.1=Die Vis-Kosten werden beim Aufnehmen des Blocks abgerechnet. Ihn zu platzieren, ist kostenlos.<BR><BR>Wegen der Menge an Energie, die für die Dislokation erforderlich ist, kosten Blöcke mit tile entities (wie Truhen oder Öfen) 5x so viel Vis wie normal. Monster-Spawner, im Besonderen, kosten stattdessen 20x so viel.
 
 # -- TALISMAN OF REMEDIUM
 ttresearch.name.CLEANSING_TALISMAN=Talisman des Remedium
 ttresearch.lore.CLEANSING_TALISMAN=Mitsukake's Geschenk
-ttresearch.page.CLEANSING_TALISMAN.0=Du hast das Leben und den KÃ¶rper studiert und herausgefunden, dass du dich durch die Anwendung von Magie von schÃ¤dlichen Ã¤uÃŸerlichen EinflÃ¼ssen schÃ¼tzen kannst, indem du diese Effekte in ein Konstrukt umleitest. Dieser Talisman wird die meisten schÃ¤dlichen Effekte auf dem TrÃ¤ger beseitigen und sie in sich selbst bewahren, was ihm Schaden zufÃ¼gt.<BR><BR>Um diese FÃ¤higkeit zu aktivieren oder deaktivieren, wÃ¼rde jemand mit ihm Shift-rechtsklicken. Wie zu erwarten funktioniert er nur aktiviert.
+ttresearch.page.CLEANSING_TALISMAN.0=Du hast das Leben und den Körper studiert und herausgefunden, dass du dich durch die Anwendung von Magie von schädlichen äußerlichen Einflüssen schützen kannst, indem du diese Effekte in ein Konstrukt umleitest. Dieser Talisman wird die meisten schädlichen Effekte auf dem Träger beseitigen und sie in sich selbst bewahren, was ihm Schaden zufügt.<BR><BR>Um diese Fähigkeit zu aktivieren oder deaktivieren, würde jemand mit ihm Shift-rechtsklicken. Wie zu erwarten funktioniert er nur aktiviert.
 
 # -- HYPERENERGETIC NITOR
 ttresearch.name.BRIGHT_NITOR=Hyperenergetisches Nitor
 ttresearch.lore.BRIGHT_NITOR=Nimm das, Zwielicht!
-ttresearch.page.BRIGHT_NITOR.0=Du hast es geschafft, ein Licht zu kreieren, dass sogar scheint, wenn es von einem Spieler getragen wird, indem zu die immerwÃ¤hrende Flamme des Nitor mit mÃ¤chtigen energetischen Aspekten wie Potentia und Lux speist.<BR><BR>Das Licht, das erzeugt wird, wird knapp hinter dem TrÃ¤ger scheinen; aufgrund der Hitze scheint es in Nether eine lÃ¤ngere Spur zu hinterlassen.
+ttresearch.page.BRIGHT_NITOR.0=Du hast es geschafft, ein Licht zu kreieren, dass sogar scheint, wenn es von einem Spieler getragen wird, indem zu die immerwährende Flamme des Nitor mit mächtigen energetischen Aspekten wie Potentia und Lux speist.<BR><BR>Das Licht, das erzeugt wird, wird knapp hinter dem Träger scheinen; aufgrund der Hitze scheint es in Nether eine längere Spur zu hinterlassen.
 
 # -- WAND FOCUS: TELEKINESIS
 ttresearch.name.FOCUS_TELEKINESIS=Stabfokus: Telekinese
-ttresearch.lore.FOCUS_TELEKINESIS=SchlÃ¤gt Schwerkraftblasen jederzeit
+ttresearch.lore.FOCUS_TELEKINESIS=Schlägt Schwerkraftblasen jederzeit
 ttresearch.page.FOCUS_TELEKINESIS.0=Du hast einen Stabfokus kreiert, der kinetisch auf dem Boden liegende Objekte bewegen kann. Dieser Fokus wird nahe Items zu dem Punkt bewegen, auf den zu zeigst. Schleichen wird die Items stattdessen zu dir bringen.
 
 # -- KINETIC ATTRACTION
 ttresearch.name.MAGNETS=Kinetische Attraktion
 ttresearch.lore.MAGNETS=Wie funktionieren die?
-ttresearch.page.MAGNETS.0=Durch das Arbeiten mit dem Telekinesefokus hast du es geschafft dieses Wissen anzuwenden, um ein GerÃ¤t zu kreieren, das Items und lebende GeschÃ¶pfe anzieht wie ein Magnet.<BR><BR>Diese BlÃ¶cke haben zwei Status, Nord (rot) und SÃ¼d (blau), im Nord-Modus werden sie GegenstÃ¤nde bzw. Lebewesen abstoÃŸen; im SÃ¼d-Modus werden sie jene anziehen.<BR><BR>Die Reichweite der Anziehung hÃ¤ngt vom empfangenen Redstone-Signal ab. Ein Hebel neben ihm wird in 7.5 BlÃ¶cken anziehen, wÃ¤hrend ein weiter entferntes Signal eine geringere Reichweite hat. Allgemein gesagt, die Anziehung ist gleich der HÃ¤lfte der StÃ¤rke des Redstone-Signals in BlÃ¶cken, in jede Richtung.
-ttresearch.page.MAGNETS.1=Du hast zwei GerÃ¤te entworfen, den Kinetischen und den Korporealen Attraktor, die entsprechend Items oder Lebendes betreffen.<BR><BR>Der Korporeale Attraktor beinhaltet ein paar komplexere Mechanismen, auf die du per Rechtklick mit einem Zauberstab zugreifen kannst. Du kannst mit einer Seelenform ein Lebewesen rechtsklicken, um es als eine Vorlage zu speichern, die du als Filter in das Interface des Attraktors eingeben kannst, zusammen mit Einstellungen fÃ¼r Erwachsene oder Baby-Tiere, wenn verfÃ¼gbar.
+ttresearch.page.MAGNETS.0=Durch das Arbeiten mit dem Telekinesefokus hast du es geschafft dieses Wissen anzuwenden, um ein Gerät zu kreieren, das Items und lebende Geschöpfe anzieht wie ein Magnet.<BR><BR>Diese Blöcke haben zwei Status, Nord (rot) und Süd (blau), im Nord-Modus werden sie Gegenstände bzw. Lebewesen abstoßen; im Süd-Modus werden sie jene anziehen.<BR><BR>Die Reichweite der Anziehung hängt vom empfangenen Redstone-Signal ab. Ein Hebel neben ihm wird in 7.5 Blöcken anziehen, während ein weiter entferntes Signal eine geringere Reichweite hat. Allgemein gesagt, die Anziehung ist gleich der Hälfte der Stärke des Redstone-Signals in Blöcken, in jede Richtung.
+ttresearch.page.MAGNETS.1=Du hast zwei Geräte entworfen, den Kinetischen und den Korporealen Attraktor, die entsprechend Items oder Lebendes betreffen.<BR><BR>Der Korporeale Attraktor beinhaltet ein paar komplexere Mechanismen, auf die du per Rechtklick mit einem Zauberstab zugreifen kannst. Du kannst mit einer Seelenform ein Lebewesen rechtsklicken, um es als eine Vorlage zu speichern, die du als Filter in das Interface des Attraktors eingeben kannst, zusammen mit Einstellungen für Erwachsene oder Baby-Tiere, wenn verfügbar.
 
 # -- OSMOTIC ENCHANTER
 ttresearch.name.ENCHANTER=Osmotischer Verzauberer
-ttresearch.lore.ENCHANTER=WÃ¤hle dein GlÃ¼ck
-ttresearch.page.ENCHANTER.0=Du bist es Leid geworden, schreckliche Verzauberungen fÃ¼r deine MÃ¼hen zu bekommen. Deswegen hast du einen neuen Zaubertisch kreiert, der es dir erlaubt, zu wÃ¤hlen, welche Verzauberungen du auf einem Item haben mÃ¶chtest.<BR><BR>Diese neue Vorrichtung benÃ¶tigt einen Stab, jede Verzauberung erfordert eine spezifische Kombination von Vis aus diesem Stab. Der Preis der Verzauberung ist exponentiell zum Level, das du auflegen mÃ¶chtest.<BR><BR>Es gelten regulÃ¤re Verzauberungsregeln, zum Beispiel kannst du nicht Behutsamkeit mit GlÃ¼ck kombinieren.
-ttresearch.page.ENCHANTER.1=Nachdem du die Verzauberungen ausgewÃ¤hlt hast, die du auf einem Item wÃ¼nschst, wird das Klicken auf den roten Knopf den Verzauberungsprozess beginnen. WÃ¤hrend das Item verzaubert wird, kannst du es nicht aus dem Tisch entfernen, ebenso wenig kannst du die Verzauberungen, die zu auflegst, nicht mehr Ã¤ndern.<BR><BR>Der Tisch wird langsam Vis aus dem Stab ziehen bis er fertig ist. Damit das funktioniert, werden 6 SÃ¤ulen in der nahen Umgebung (4 BlÃ¶cke) benÃ¶tigt, diese SÃ¤ulen mÃ¼ssen auf der selben HÃ¶he wie der Tisch sein.<BR><BR>[fortgesetzt]
-ttresearch.page.ENCHANTER.2=Die SÃ¤ulen mÃ¼ssen aus zwei bis zwÃ¶lf Ã¼bereinander gestapelten Obsidian-Totems bestehen, jeweils mit Nitor an der Spitze. Der Verzauberer wird Fluxenergie von ihnen bekommen, sich Vis aus dem Stab nehmen und beides kombinieren, um das Item zu verzaubern.<BR><BR>Der Verzauberer wird nicht mit eisen- oder kupferbekappten StÃ¤ben funktionieren, weil sie zu einfach und grob fÃ¼r die nÃ¶tigen komplexen magischen Infusionen sind.
+ttresearch.lore.ENCHANTER=Wähle dein Glück
+ttresearch.page.ENCHANTER.0=Du bist es Leid geworden, schreckliche Verzauberungen für deine Mühen zu bekommen. Deswegen hast du einen neuen Zaubertisch kreiert, der es dir erlaubt, zu wählen, welche Verzauberungen du auf einem Item haben möchtest.<BR><BR>Diese neue Vorrichtung benötigt einen Stab, jede Verzauberung erfordert eine spezifische Kombination von Vis aus diesem Stab. Der Preis der Verzauberung ist exponentiell zum Level, das du auflegen möchtest.<BR><BR>Es gelten reguläre Verzauberungsregeln, zum Beispiel kannst du nicht Behutsamkeit mit Glück kombinieren.
+ttresearch.page.ENCHANTER.1=Nachdem du die Verzauberungen ausgewählt hast, die du auf einem Item wünschst, wird das Klicken auf den roten Knopf den Verzauberungsprozess beginnen. Während das Item verzaubert wird, kannst du es nicht aus dem Tisch entfernen, ebenso wenig kannst du die Verzauberungen, die zu auflegst, nicht mehr ändern.<BR><BR>Der Tisch wird langsam Vis aus dem Stab ziehen bis er fertig ist. Damit das funktioniert, werden 6 Säulen in der nahen Umgebung (4 Blöcke) benötigt, diese Säulen müssen auf der selben Höhe wie der Tisch sein.<BR><BR>[fortgesetzt]
+ttresearch.page.ENCHANTER.2=Die Säulen müssen aus zwei bis zwölf übereinander gestapelten Obsidian-Totems bestehen, jeweils mit Nitor an der Spitze. Der Verzauberer wird Fluxenergie von ihnen bekommen, sich Vis aus dem Stab nehmen und beides kombinieren, um das Item zu verzaubern.<BR><BR>Der Verzauberer wird nicht mit eisen- oder kupferbekappten Stäben funktionieren, weil sie zu einfach und grob für die nötigen komplexen magischen Infusionen sind.
 
 # -- TALISMAN OF WITHHOLD
 ttresearch.name.XP_TALISMAN=Talisman des Einbehaltens
 ttresearch.lore.XP_TALISMAN=Ich werd' mir deine 'Zeit' nehmen
-ttresearch.page.XP_TALISMAN.0=Nachdem du nun weiÃŸt, dass Zombiehirne die FÃ¤higkeit haben, Erfahrung zu speichern, hast du einen Talisman kreiert, der dieses Verhalten nachahmt, jedoch nicht in perfektem AusmaÃŸ.<BR><BR>Um die FÃ¤higkeit, Erfahrung zu speichern, zu nutzen, musst du mit dem Talisman Shift-rechtsklicken. Wenn der Talisman aktiviert ist, wird er alle nahen Erfahrungsorbs absorbieren, diese kÃ¶nnen wieder zurÃ¼ck zu nutzbarer Erfahrung transformiert werden, wenn du mit einer Glasflasche in deinem Inventar rechtsklickst, was diese Flasche in ein ErfahrungsflÃ¤schchen verwandelt.
+ttresearch.page.XP_TALISMAN.0=Nachdem du nun weißt, dass Zombiehirne die Fähigkeit haben, Erfahrung zu speichern, hast du einen Talisman kreiert, der dieses Verhalten nachahmt, jedoch nicht in perfektem Ausmaß.<BR><BR>Um die Fähigkeit, Erfahrung zu speichern, zu nutzen, musst du mit dem Talisman Shift-rechtsklicken. Wenn der Talisman aktiviert ist, wird er alle nahen Erfahrungsorbs absorbieren, diese können wieder zurück zu nutzbarer Erfahrung transformiert werden, wenn du mit einer Glasflasche in deinem Inventar rechtsklickst, was diese Flasche in ein Erfahrungsfläschchen verwandelt.
 
 # -- ESSENTIA FUNNEL
 ttresearch.name.FUNNEL=Essentia-Trichter
 ttresearch.lore.FUNNEL=Gerechter Transfer
-ttresearch.page.FUNNEL.0=Du wurdest es Leid, deine GlÃ¤ser mit Phiolen zu managen, dazu hast du diesen neuen Mechanismus kreiert, um den Inhalt eines Glases in ein anderes zu transferieren.<BR><BR>Wenn du dies auf einem Trichter platzierst und mit einem gefÃ¼llten Glas rechtsklickst, wenn der Trichter in ein Glas zeigt, das entweder leer oder mit dem selben Aspekt gefÃ¼llt ist, wird der Inhalt des Glases hinÃ¼bertransferiert werden.
+ttresearch.page.FUNNEL.0=Du wurdest es Leid, deine Gläser mit Phiolen zu managen, dazu hast du diesen neuen Mechanismus kreiert, um den Inhalt eines Glases in ein anderes zu transferieren.<BR><BR>Wenn du dies auf einem Trichter platzierst und mit einem gefüllten Glas rechtsklickst, wenn der Trichter in ein Glas zeigt, das entweder leer oder mit dem selben Aspekt gefüllt ist, wird der Inhalt des Glases hinübertransferiert werden.
 
 # -- ENCHANTMENT: ASCENT BOOST
 ttresearch.name.TTENCH_ASCENT_BOOST=Verzauberung: Aufstiegs-Boost
-ttresearch.lore.TTENCH_ASCENT_BOOST=Ãœber die Wand Maria
-ttresearch.page.TTENCH_ASCENT_BOOST.0=Du hast eine Verzauberung formuliert, die es dir erlaubt, hÃ¶her zu springen als du normalerweise kannst.<BR><BR>Diese Verzauberung kann auf BeinrÃ¼stung gelegt werden. Wenn getan, wird der TrÃ¤ger fÃ¤hig sein, deutlich hÃ¶her als normal zu springen.
+ttresearch.lore.TTENCH_ASCENT_BOOST=Über die Wand Maria
+ttresearch.page.TTENCH_ASCENT_BOOST.0=Du hast eine Verzauberung formuliert, die es dir erlaubt, höher zu springen als du normalerweise kannst.<BR><BR>Diese Verzauberung kann auf Beinrüstung gelegt werden. Wenn getan, wird der Träger fähig sein, deutlich höher als normal zu springen.
 
 # -- ENCHANTMENT: SLOW FALL
 ttresearch.name.TTENCH_SLOW_FALL=Verzauberung: Langsamer Fall
 ttresearch.lore.TTENCH_SLOW_FALL=M.A.G.E.
-ttresearch.page.TTENCH_SLOW_FALL.0=Du hast eine Verzauberung formuliert, die es dir erlaubt, langsam zu fallen.<BR><BR>Diese Verzauberung kann auf RÃ¼stung fÃ¼r FÃ¼ÃŸe gelegt werden. Wenn getan, wird der TrÃ¤ger fÃ¤hig sein, langsamer zu fallen, was auch Fallschaden reduziert, wenn nicht sogar negiert.<BR><BR>Shift zu drÃ¼cken, wird diesen Effekt zeitweise deaktivieren, was es dir erlaubt, normal zu fallen.
+ttresearch.page.TTENCH_SLOW_FALL.0=Du hast eine Verzauberung formuliert, die es dir erlaubt, langsam zu fallen.<BR><BR>Diese Verzauberung kann auf Rüstung für Füße gelegt werden. Wenn getan, wird der Träger fähig sein, langsamer zu fallen, was auch Fallschaden reduziert, wenn nicht sogar negiert.<BR><BR>Shift zu drücken, wird diesen Effekt zeitweise deaktivieren, was es dir erlaubt, normal zu fallen.
 
 # -- ENCHANTMENT: FLAMING TOUCH
-ttresearch.name.TTENCH_AUTO_SMELT=Verzauberung: Flammende BerÃ¼hrung
+ttresearch.name.TTENCH_AUTO_SMELT=Verzauberung: Flammende Berührung
 ttresearch.lore.TTENCH_AUTO_SMELT=Rekka Shinen!
-ttresearch.page.TTENCH_AUTO_SMELT.0=Du hast eine Verzauberung formuliert, die es dir erlaubt, imaginÃ¤re Flammen zu beschwÃ¶ren.<BR><BR>Diese Verzauberung kann auf Werkzeuge gelegt werden. Wenn getan, kann der Nutzer alles HÃ¶lzerne mit extremer Finesse abbauen, indem er eine Flamme nutzt, die das Holz wÃ¤hrend des Abbauprozesses weich macht, es aber niemals zerstÃ¶rt oder schÃ¤digt. Jedoch wird das Werkzeug nutzlos gegenÃ¼ber allem anderen und nimmt doppelten Haltbarkeitsschaden.
+ttresearch.page.TTENCH_AUTO_SMELT.0=Du hast eine Verzauberung formuliert, die es dir erlaubt, imaginäre Flammen zu beschwören.<BR><BR>Diese Verzauberung kann auf Werkzeuge gelegt werden. Wenn getan, kann der Nutzer alles Hölzerne mit extremer Finesse abbauen, indem er eine Flamme nutzt, die das Holz während des Abbauprozesses weich macht, es aber niemals zerstört oder schädigt. Jedoch wird das Werkzeug nutzlos gegenüber allem anderen und nimmt doppelten Haltbarkeitsschaden.
 
 # -- ENCHANTMENT: DISINTEGRATE
 ttresearch.name.TTENCH_DESINTEGRATE=Verzauberung: Desintegrieren
 ttresearch.lore.TTENCH_DESINTEGRATE=Weltraumbeben-Alarm
-ttresearch.page.TTENCH_DESINTEGRATE.0=Du hast eine Verzauberung formuliert, die es dir erlaubt, weiche Materialien mit unglaublicher Geschwindigkeit abzubauen.<BR><BR>Diese Verzauberung kann auf Werkzeuge gelegt werden. Wenn getan, kann der Nutzer alle regulÃ¤ren BlÃ¶cke (Erde, Stein, Netherstein etc.), fÃ¼r die das Werkzeug gut ist, mit extremer Finesse abbauen, jedoch wird das Werkzeug nutzlos gegenÃ¼ber allem anderen und nimmt doppelten Haltbarkeitsschaden.
+ttresearch.page.TTENCH_DESINTEGRATE.0=Du hast eine Verzauberung formuliert, die es dir erlaubt, weiche Materialien mit unglaublicher Geschwindigkeit abzubauen.<BR><BR>Diese Verzauberung kann auf Werkzeuge gelegt werden. Wenn getan, kann der Nutzer alle regulären Blöcke (Erde, Stein, Netherstein etc.), für die das Werkzeug gut ist, mit extremer Finesse abbauen, jedoch wird das Werkzeug nutzlos gegenüber allem anderen und nimmt doppelten Haltbarkeitsschaden.
 
 # -- ENCHANTMENT: QUICK DRAW
 ttresearch.name.TTENCH_QUICK_DRAW=Verzauberung: Schnelles Spannen
-ttresearch.lore.TTENCH_QUICK_DRAW=MÃ¶gen die Seltsamen auf ewig zu deinen Gunsten sein
-ttresearch.page.TTENCH_QUICK_DRAW.0=Du hast eine Verzauberung formuliert, die es dir erlaubt, deinen Bogen auf schnellere Art zu spannen.<BR><BR>Diese Verzauberung kann auf BÃ¶gen gelegt werden. Wenn getan, kann der Bogen schneller voll gespannt werden als normal.
+ttresearch.lore.TTENCH_QUICK_DRAW=Mögen die Seltsamen auf ewig zu deinen Gunsten sein
+ttresearch.page.TTENCH_QUICK_DRAW.0=Du hast eine Verzauberung formuliert, die es dir erlaubt, deinen Bogen auf schnellere Art zu spannen.<BR><BR>Diese Verzauberung kann auf Bögen gelegt werden. Wenn getan, kann der Bogen schneller voll gespannt werden als normal.
 
 # -- ENCHANTMENT: VAMPIRISM
 ttresearch.name.TTENCH_VAMPIRISM=Verzauberung: Vampirismus
 ttresearch.lore.TTENCH_VAMPIRISM=Ich werd' mir das mal nehmen
-ttresearch.page.TTENCH_VAMPIRISM.0=Du hast eine Verzauberung formuliert, die es dir erlaubt, die Lebenskraft der Gegner, die du attackierst, auszusaugen.<BR><BR>Diese Verzauberung kann auf Schwerter gelegt werden. Wenn getan, wird ein StÃ¼ck des einem Lebewesen mit diesem Schwert verursachten Schadens dem Nutzer zurÃ¼ckgegeben.
+ttresearch.page.TTENCH_VAMPIRISM.0=Du hast eine Verzauberung formuliert, die es dir erlaubt, die Lebenskraft der Gegner, die du attackierst, auszusaugen.<BR><BR>Diese Verzauberung kann auf Schwerter gelegt werden. Wenn getan, wird ein Stück des einem Lebewesen mit diesem Schwert verursachten Schadens dem Nutzer zurückgegeben.
 
 # -- WAND FOCUS: EFREET'S FLAME
 ttresearch.name.FOCUS_SMELT=Stabfokus: Efreet's Flamme
-ttresearch.lore.FOCUS_SMELT=BÃ¤nder wÃ¼rden keinen Unterschied machen
-ttresearch.page.FOCUS_SMELT.0=Indem du den Flammen- und Exkavationsfokus kombinierst, hast du einen Fokus gemacht, der Eigenschaften von beiden hat.<BR><BR>Dieser Fokus wird jeglichen Block schmelzen, auf den der TrÃ¤ger zeigt, gleich dem Strahl des Exkavationsfokus. Nur BlÃ¶cke, die in einem gewÃ¶hnlichen Ofen zu anderen BlÃ¶cken geschmolzen werden kÃ¶nnen, werden geschmolzen.
+ttresearch.lore.FOCUS_SMELT=Bänder würden keinen Unterschied machen
+ttresearch.page.FOCUS_SMELT.0=Indem du den Flammen- und Exkavationsfokus kombinierst, hast du einen Fokus gemacht, der Eigenschaften von beiden hat.<BR><BR>Dieser Fokus wird jeglichen Block schmelzen, auf den der Träger zeigt, gleich dem Strahl des Exkavationsfokus. Nur Blöcke, die in einem gewöhnlichen Ofen zu anderen Blöcken geschmolzen werden können, werden geschmolzen.
 
 # -- WAND FOCUS: MENDING
 ttresearch.name.FOCUS_HEAL=Stabfokus: Mending
-ttresearch.lore.FOCUS_HEAL=Bandagen, Leere und GefÃ¼hl
-ttresearch.page.FOCUS_HEAL.0=Du weiÃŸt, dass die Pech mÃ¤chtige Foki besitzen, die Krankheiten verursachen, damit hast du dir einen Weg erdacht, sie zu deinem Vorteil zu nutzen.<BR><BR>Dieser Fokus wird langsam die Wunden des Anwenders heilen, wÃ¤hrend er ihn benutzt, indem er fÃ¼r den Prozess Vis aus dem Stab verwendet.
+ttresearch.lore.FOCUS_HEAL=Bandagen, Leere und Gefühl
+ttresearch.page.FOCUS_HEAL.0=Du weißt, dass die Pech mächtige Foki besitzen, die Krankheiten verursachen, damit hast du dir einen Weg erdacht, sie zu deinem Vorteil zu nutzen.<BR><BR>Dieser Fokus wird langsam die Wunden des Anwenders heilen, während er ihn benutzt, indem er für den Prozess Vis aus dem Stab verwendet.
 
 # -- WAND FOCUS: ENDER RIFT
 ttresearch.name.FOCUS_ENDER_CHEST=Stabfokus: Enderspalt
 ttresearch.lore.FOCUS_ENDER_CHEST=Ein 'Loch' zur vierten Dimension
-ttresearch.page.FOCUS_ENDER_CHEST.0=Indem du einen Handspiegel mit einem Tragbaren Loch kombinierst, hast du es geschafft, einen Fokus zu konstruieren, der eine Spalte in das Ender reiÃŸt, was es dir erlaubt, von Ã¼berall auf den Inhalt deiner Endertruhe zuzugreifen.
+ttresearch.page.FOCUS_ENDER_CHEST.0=Indem du einen Handspiegel mit einem Tragbaren Loch kombinierst, hast du es geschafft, einen Fokus zu konstruieren, der eine Spalte in das Ender reißt, was es dir erlaubt, von überall auf den Inhalt deiner Endertruhe zuzugreifen.
 
 # -- CURSED SPIRIT'S BLADE
 ttresearch.name.BLOOD_SWORD=Klinge des Verfluchten Geistes
 ttresearch.lore.BLOOD_SWORD=Du bist unfreundlich
-ttresearch.page.BLOOD_SWORD.0=Du hast ein Schwert kreiert, dass mit noch nie da gewesener Kraft zustÃ¶ÃŸt. Jedoch, damit dass der Fall ist, ernÃ¤hrt sich das Schwert vom Blut des TrÃ¤gers.<BR><BR>Wenn mit diesem Schwert irgendetwas angegriffen wird, wird der Angreifer ein Herz Schaden erleiden. Mit diesem Schwert zu blocken, wird immer nur 1.5 Herzen Schaden verursachen, ungeachtet des ursprÃ¼nglichen Schadens.<BR><BR>Ferner wird das bloÃŸe Halten dieses Schwertes dem TrÃ¤ger eine unerschÃ¼tterliche Aura verleihen, was sie befÃ¤higt, sich schneller zu bewegen als normal.
+ttresearch.page.BLOOD_SWORD.0=Du hast ein Schwert kreiert, dass mit noch nie da gewesener Kraft zustößt. Jedoch, damit dass der Fall ist, ernährt sich das Schwert vom Blut des Trägers.<BR><BR>Wenn mit diesem Schwert irgendetwas angegriffen wird, wird der Angreifer ein Herz Schaden erleiden. Mit diesem Schwert zu blocken, wird immer nur 1.5 Herzen Schaden verursachen, ungeachtet des ursprünglichen Schadens.<BR><BR>Ferner wird das bloße Halten dieses Schwertes dem Träger eine unerschütterliche Aura verleihen, was sie befähigt, sich schneller zu bewegen als normal.
 
 # -- TRANSVECTOR DISLOCATOR
 ttresearch.name.DISLOCATOR=Transvektor-Dislokator
-ttresearch.lore.DISLOCATOR=Keine Blutmagie benÃ¶tigt
-ttresearch.page.DISLOCATOR.0=Indem du Bewegung studiert hast, hast du es geschafft, einen Block zu kreieren, der zwei BlÃ¶cke im Raum austauschen kann.<BR><BR>Dieser Block funktioniert wie eine Transvektor-Schnittstelle, Also muss er mit einem Transvektoren-Binder mit einer anderen Position verbunden werden, du kannst die Richtung, der er zugewendet ist, mit einem Stab Ã¤ndern, und wenn er ein Redstone-Signal empfÃ¤ngt, wird der Dislokator den Block vor ihm mit dem Block, mit dem er durch den Binder verbunden ist, austauschen. Er transportiert auch alle Lebewesen und Items in diesen Bereichen.<BR><BR>Er kann wie die Transvektor-Schnittstelle getarnt werden. Er hat jedoch eine grÃ¶ÃŸere Reichweite, 16 BlÃ¶cke.
+ttresearch.lore.DISLOCATOR=Keine Blutmagie benötigt
+ttresearch.page.DISLOCATOR.0=Indem du Bewegung studiert hast, hast du es geschafft, einen Block zu kreieren, der zwei Blöcke im Raum austauschen kann.<BR><BR>Dieser Block funktioniert wie eine Transvektor-Schnittstelle, Also muss er mit einem Transvektoren-Binder mit einer anderen Position verbunden werden, du kannst die Richtung, der er zugewendet ist, mit einem Stab ändern, und wenn er ein Redstone-Signal empfängt, wird der Dislokator den Block vor ihm mit dem Block, mit dem er durch den Binder verbunden ist, austauschen. Er transportiert auch alle Lebewesen und Items in diesen Bereichen.<BR><BR>Er kann wie die Transvektor-Schnittstelle getarnt werden. Er hat jedoch eine größere Reichweite, 16 Blöcke.
 
 # -- HELMET OF REVEALING
-ttresearch.name.REVEALING_HELM=Helm der EnthÃ¼llung
+ttresearch.name.REVEALING_HELM=Helm der Enthüllung
 ttresearch.lore.REVEALING_HELM=Darum kann ich Photoshop nicht benutzen
-ttresearch.page.REVEALING_HELM.0=Wie sich herausstellt, bietet eine Brille nicht viel Schutz gegen angreifende Zombies. Du denkst jedoch, du hast eine LÃ¶sung fÃ¼r das Problem gefunden. Indem du eine Brille an einem Thaumiumhelm befestigst, kannst du die Vorteile von beidem nutzen. Na ja, es stellt sich heraus, dass es ein wenig komplizierter als das ist. Ein bisschen Magie ist nÃ¶tig, um RÃ¼ckkopplungen zu vermeiden, und ein wenig Magie, um sie am verrutschen zu hindern, aber insgesamt scheint es mehr oder weniger zu funktionieren.
+ttresearch.page.REVEALING_HELM.0=Wie sich herausstellt, bietet eine Brille nicht viel Schutz gegen angreifende Zombies. Du denkst jedoch, du hast eine Lösung für das Problem gefunden. Indem du eine Brille an einem Thaumiumhelm befestigst, kannst du die Vorteile von beidem nutzen. Na ja, es stellt sich heraus, dass es ein wenig komplizierter als das ist. Ein bisschen Magie ist nötig, um Rückkopplungen zu vermeiden, und ein wenig Magie, um sie am verrutschen zu hindern, aber insgesamt scheint es mehr oder weniger zu funktionieren.
 
 # -- THAUMIC REHABILITATOR
 ttresearch.name.REPAIRER=Thaumischer Restaurierer
 ttresearch.lore.REPAIRER=Weniger Risse als eine Kartoffel am Stiel
-ttresearch.page.REPAIRER.0=Du hast ein neues GerÃ¤t kreiert, um zerbrochenes Werkzeug zu restaurieren. Wenn du mit einem gebrochenen Werkzeug auf diesen Block klickst und ihn an EssentiarÃ¶hren anschlieÃŸt, wird er Essentia aufnehmen, um das Werkzeug zu reparieren.<BR><BR>Die Essentia, die reparieren wird, ist in der Reihenfolge vom kaum bis sehr effektiv Ordo, Fabrico und Instrumentum.<BR><BR>AuÃŸerdem zeigt er, wenn du mit der Brille der EnthÃ¼llung auf den Block schaust, wie kaputt das Item in ihm noch ist.
+ttresearch.page.REPAIRER.0=Du hast ein neues Gerät kreiert, um zerbrochenes Werkzeug zu restaurieren. Wenn du mit einem gebrochenen Werkzeug auf diesen Block klickst und ihn an Essentiaröhren anschließt, wird er Essentia aufnehmen, um das Werkzeug zu reparieren.<BR><BR>Die Essentia, die reparieren wird, ist in der Reihenfolge vom kaum bis sehr effektiv Ordo, Fabrico und Instrumentum.<BR><BR>Außerdem zeigt er, wenn du mit der Brille der Enthüllung auf den Block schaust, wie kaputt das Item in ihm noch ist.
 
 # -- WAND FOCUS: DISTORTION
 ttresearch.name.FOCUS_DEFLECT=Stabfokus: Verzerrung
 ttresearch.lore.FOCUS_DEFLECT=Ich bin kein Engel
-ttresearch.page.FOCUS_DEFLECT.0=Du hast einen Fokus kreiert, um dich vor eingehendem Feuer zu schÃ¼tzen.<BR><BR>Dieser Fokus, wenn genutzt, wird durchgehend Vis aus dem Stab ziehen, auf den er aufgesetzt ist, um eine Barriere um den Nutzer herum zu beschwÃ¶ren, die ordinÃ¤re Projektile harmlos durch sie hindurchfliegen lÃ¤sst.<BR><BR>OrdinÃ¤re Projektile sind Pfeile, SchneebÃ¤lle oder TrÃ¤nke. Es scheint, dass die Barriere nicht stark genug ist, um stÃ¤rkere Angriffe wie FeuerbÃ¤lle oder WitherschÃ¤del abzuwehren.
+ttresearch.page.FOCUS_DEFLECT.0=Du hast einen Fokus kreiert, um dich vor eingehendem Feuer zu schützen.<BR><BR>Dieser Fokus, wenn genutzt, wird durchgehend Vis aus dem Stab ziehen, auf den er aufgesetzt ist, um eine Barriere um den Nutzer herum zu beschwören, die ordinäre Projektile harmlos durch sie hindurchfliegen lässt.<BR><BR>Ordinäre Projektile sind Pfeile, Schneebälle oder Tränke. Es scheint, dass die Barriere nicht stark genug ist, um stärkere Angriffe wie Feuerbälle oder Witherschädel abzuwehren.
 
 # -- ETHEREAL PLATFORM
-ttresearch.name.PLATFORM=Ã„therische Plattform
+ttresearch.name.PLATFORM=Ätherische Plattform
 ttresearch.lore.PLATFORM=Verstecke Brom und Barium
-ttresearch.page.PLATFORM.0=Du hast einen Block erdacht, der nur solide ist fÃ¼r die, die auf ihm stehen. Dieser Block hat keine Kollisionsbox fÃ¼r alle, die dieses Kriterium nicht erfÃ¼llen, sowie fÃ¼r Schleichende.<BR><BR>Du kannst diesen Block auch als jeglichen anderen Block tarnen, indem du einfach auf ihn klickst.<BR><BR>Du denkst, dass du dies mit dem Arkanen Levitator nutzen kannst, fÃ¼r einige interessante Effekte.
+ttresearch.page.PLATFORM.0=Du hast einen Block erdacht, der nur solide ist für die, die auf ihm stehen. Dieser Block hat keine Kollisionsbox für alle, die dieses Kriterium nicht erfüllen, sowie für Schleichende.<BR><BR>Du kannst diesen Block auch als jeglichen anderen Block tarnen, indem du einfach auf ihn klickst.<BR><BR>Du denkst, dass du dies mit dem Arkanen Levitator nutzen kannst, für einige interessante Effekte.
 
 # KAMI RESEARCH
 
 # -- DIMENSIONAL SHARDS
 ttresearch.name.DIMENSION_SHARDS=Dimensionale Scherben
-ttresearch.lore.DIMENSION_SHARDS=RaritÃ¤ten des Jenseitigen
-ttresearch.page.DIMENSION_SHARDS.0=Gleich der Hauptwelt besitzen auch der Nether und das Ende ihre spezifische Scherben, diese werden selten von Zombie-Pigmen im Nether oder Endermen im Ende getragen. Sie kÃ¶nnten fÃ¼r spÃ¤tere Dinge nÃ¼tzlich sein, obwohl du nicht sicher bist, inwiefern.<BR><BR><IMG>ttinkerer:textures/items/netherShard.png:0:0:255:255:0.0625</IMG><IMG>ttinkerer:textures/items/enderShard.png:0:0:255:255:0.0625</IMG>
+ttresearch.lore.DIMENSION_SHARDS=Raritäten des Jenseitigen
+ttresearch.page.DIMENSION_SHARDS.0=Gleich der Hauptwelt besitzen auch der Nether und das Ende ihre spezifische Scherben, diese werden selten von Zombie-Pigmen im Nether oder Endermen im Ende getragen. Sie könnten für spätere Dinge nützlich sein, obwohl du nicht sicher bist, inwiefern.<BR><BR><IMG>ttinkerer:textures/items/netherShard.png:0:0:255:255:0.0625</IMG><IMG>ttinkerer:textures/items/enderShard.png:0:0:255:255:0.0625</IMG>
 
 # -- ICHOR
 ttresearch.name.ICHOR=Ichor
-ttresearch.lore.ICHOR=Blut der GÃ¶tter
-ttresearch.page.ICHOR.0=Durch ausgedehnte Studien in allen Aspekten der Thaumaturgie hast du eine Substanz entdeckt, die, wie du glaubst, der nÃ¤chste Schritt in deinen Bestrebungen ist.<BR><BR>Diese extrem mÃ¤chtige Substanz, die du "Ichor" nennst, enthÃ¤lt die rohe erweckte Macht eines Nethersterns. Du bist sicher, dass du fÃ¤hig sein wirst, es in Zukunft fÃ¼r zahllose GerÃ¤tschaften zu verwenden.
+ttresearch.lore.ICHOR=Blut der Götter
+ttresearch.page.ICHOR.0=Durch ausgedehnte Studien in allen Aspekten der Thaumaturgie hast du eine Substanz entdeckt, die, wie du glaubst, der nächste Schritt in deinen Bestrebungen ist.<BR><BR>Diese extrem mächtige Substanz, die du "Ichor" nennst, enthält die rohe erweckte Macht eines Nethersterns. Du bist sicher, dass du fähig sein wirst, es in Zukunft für zahllose Gerätschaften zu verwenden.
 
 # -- ICHORCLOTH
 ttresearch.name.ICHOR_CLOTH=Ichortuch
 ttresearch.lore.ICHOR_CLOTH=Lebensfaser-Synchronisation
-ttresearch.page.ICHOR_CLOTH.0=Du hast einen Weg gefunden, Magischen Stoff mit deiner neuesten Entdeckung, Ichor, zu versetzen. Komisch genug, dass dieser Prozess nicht das gewÃ¶hnliche Infusionsprozedere erfordert, da das Ichor den Diamanten einfach absorbiert und mit dem Stoff verschmilzt.<BR><BR>Jedoch benÃ¶tigst du, um das zu bewerkstelligen, nicht nur, dass der besten Stab, den du jemals kreiert hast, voll geladen ist, du musst auch ein volles Set der Thaumaturgenrobe tragen, um genug Energie fÃ¼r die Kreierung zu Ã¼bertragen.<BR><BR>Du denkst, dass es Zeit ist, einen neuen Stab zu entwerfen.
+ttresearch.page.ICHOR_CLOTH.0=Du hast einen Weg gefunden, Magischen Stoff mit deiner neuesten Entdeckung, Ichor, zu versetzen. Komisch genug, dass dieser Prozess nicht das gewöhnliche Infusionsprozedere erfordert, da das Ichor den Diamanten einfach absorbiert und mit dem Stoff verschmilzt.<BR><BR>Jedoch benötigst du, um das zu bewerkstelligen, nicht nur, dass der besten Stab, den du jemals kreiert hast, voll geladen ist, du musst auch ein volles Set der Thaumaturgenrobe tragen, um genug Energie für die Kreierung zu übertragen.<BR><BR>Du denkst, dass es Zeit ist, einen neuen Stab zu entwerfen.
 
 # -- ICHORIUM
 ttresearch.name.ICHORIUM=Ichorium
 ttresearch.lore.ICHORIUM=Nicht von Stockwerk 55
-ttresearch.page.ICHORIUM.0=Mehr Forschung mit Ichor enthÃ¼llte seine Eigenschaft, mir den meisten gewÃ¶hnlichen Materialien zu verschmelzen. Die meisten Mischungen resultieren in absolut gar nichts, jedoch hast du es bereits geschafft, es mit Diamanten und Stoff zu vermischen, und dieses mal gelang es mit Thaumium.<BR><BR>Dieses Metall ist extrem stark und belastbar, zu einem Grad, zu welchem gewÃ¶hnliche Materialien niemals kommen kÃ¶nnten. Du hast bisher noch keinen Nutzen fÃ¼r es gefunden, aber du weiÃŸt, dass dir das nicht allzu schwer fallen dÃ¼rfte.
+ttresearch.page.ICHORIUM.0=Mehr Forschung mit Ichor enthüllte seine Eigenschaft, mir den meisten gewöhnlichen Materialien zu verschmelzen. Die meisten Mischungen resultieren in absolut gar nichts, jedoch hast du es bereits geschafft, es mit Diamanten und Stoff zu vermischen, und dieses mal gelang es mit Thaumium.<BR><BR>Dieses Metall ist extrem stark und belastbar, zu einem Grad, zu welchem gewöhnliche Materialien niemals kommen könnten. Du hast bisher noch keinen Nutzen für es gefunden, aber du weißt, dass dir das nicht allzu schwer fallen dürfte.
 
 # -- ICHORCLOTH STRAPPED SILVERWOOD WAND CORE
-ttresearch.name.ICHORCLOTH_ROD=Ichortuch-verstÃ¤rkter Silberholz-Stabkern
+ttresearch.name.ICHORCLOTH_ROD=Ichortuch-verstärkter Silberholz-Stabkern
 ttresearch.lore.ICHORCLOTH_ROD=Das ist ein langer Name
-ttresearch.page.ICHORCLOTH_ROD.0=DU hast es geschafft. Indem du einen Silberholz-Stabkern mit Ichortuch versetzt, hast du es geschafft, den ultimativen Stabkern zu erschaffen.<BR><BR>Dieser Kern hÃ¤lt eine gewaltige Menge von 1000 jeder Art von Vis. Dies wird mit Sicherheit die Herstellung teurer Komponenten ein wenig stressfreier machen. Nun bleibt die Frage, wo wirst du all das Vis hierfÃ¼r herbekommen?
+ttresearch.page.ICHORCLOTH_ROD.0=DU hast es geschafft. Indem du einen Silberholz-Stabkern mit Ichortuch versetzt, hast du es geschafft, den ultimativen Stabkern zu erschaffen.<BR><BR>Dieser Kern hält eine gewaltige Menge von 1000 jeder Art von Vis. Dies wird mit Sicherheit die Herstellung teurer Komponenten ein wenig stressfreier machen. Nun bleibt die Frage, wo wirst du all das Vis hierfür herbekommen?
 
 # -- ICHORIUM WAND CAPS
 ttresearch.name.ICHOR_CAP=Ichorium-Stabkappen
 ttresearch.lore.ICHOR_CAP=Ein wenig wie ein Steam Sale
-ttresearch.page.ICHOR_CAP.0=Du hast den ersten Nutzen fÃ¼r Ichorium gefunden, indem du Stabkappen erdachtest, die dir eine Visreduktion von 20% auf alles geben. Nun musst du sie nur noch tatsÃ¤chlich nutzen und einen Stab kreieren, der mehr Vis halten kann.
+ttresearch.page.ICHOR_CAP.0=Du hast den ersten Nutzen für Ichorium gefunden, indem du Stabkappen erdachtest, die dir eine Visreduktion von 20% auf alles geben. Nun musst du sie nur noch tatsächlich nutzen und einen Stab kreieren, der mehr Vis halten kann.
 
 # -- ICHORCLOTH ARMOR
 ttresearch.name.ICHORCLOTH_ARMOR=Ichortuchrobe
 ttresearch.lore.ICHORCLOTH_ARMOR=Kamui Senk... warte
-ttresearch.page.ICHORCLOTH_ARMOR.0=Du hast herausgefunden, wie man Ichortuch zu Kleidung verwebt.<BR><BR>Diese neue Kleidung ist etwa so effektiv wie DiamantrÃ¼stung, wenn es um Schutz vor Schaden geht. Jedoch ist dieser Stoff komplett unzerstÃ¶rbar und wird niemals auch nur einen Kratzer bekommen.
+ttresearch.page.ICHORCLOTH_ARMOR.0=Du hast herausgefunden, wie man Ichortuch zu Kleidung verwebt.<BR><BR>Diese neue Kleidung ist etwa so effektiv wie Diamantrüstung, wenn es um Schutz vor Schaden geht. Jedoch ist dieser Stoff komplett unzerstörbar und wird niemals auch nur einen Kratzer bekommen.
 
 # -- COWL OF THE ABYSSAL DEPTHS
 ttresearch.name.ICHORCLOTH_HELM_GEM=Kappe der Abgrundtiefe
 ttresearch.lore.ICHORCLOTH_HELM_GEM=Nur freundliche Krustentiere
-ttresearch.page.ICHORCLOTH_HELM_GEM.0=Du hast einen Weg gefunden, die Ichortuchkappe in eine noch mÃ¤chtigere Form umzuwandeln.<BR><BR>Zuallererst Ã¼bernimmt die Kappe die Funktionen der Brille der EnthÃ¼llung.<BR>Zweitens kann der TrÃ¤ger ewig unter Wasser atmen und dort auch alles kristallklar sehen.<BR>Zu guter Letzt wird der Effekt der Gesundheitsregeneration bei vollem Magen auch eintreten, sollte der TrÃ¤ger hungrig sein.
+ttresearch.page.ICHORCLOTH_HELM_GEM.0=Du hast einen Weg gefunden, die Ichortuchkappe in eine noch mächtigere Form umzuwandeln.<BR><BR>Zuallererst übernimmt die Kappe die Funktionen der Brille der Enthüllung.<BR>Zweitens kann der Träger ewig unter Wasser atmen und dort auch alles kristallklar sehen.<BR>Zu guter Letzt wird der Effekt der Gesundheitsregeneration bei vollem Magen auch eintreten, sollte der Träger hungrig sein.
 
 # -- ROBES OF THE STRATOSPHERE
-ttresearch.name.ICHORCLOTH_CHEST_GEM=Robe der StratosphÃ¤re
-ttresearch.lore.ICHORCLOTH_CHEST_GEM=MÃ¤nner kÃ¶nnen das auch tragen
-ttresearch.page.ICHORCLOTH_CHEST_GEM.0=Du hast einen Weg gefunden, die Ichortuchrobe in eine noch mÃ¤chtigere Form umzuwandeln.<BR><BR>Erstens wird das bloÃŸe tragen dieser Robe die Gabe des Fliegens verleihen (inklusive FlÃ¼geln, die nicht nach 5 Minuten verbrennen) sowie allen Fallschaden annullieren.<BR>Die Robe schÃ¼tzt den TrÃ¤ger auch vor allen eintreffenden Projektilen, gleich dem Fokus der Verzerrung.
+ttresearch.name.ICHORCLOTH_CHEST_GEM=Robe der Stratosphäre
+ttresearch.lore.ICHORCLOTH_CHEST_GEM=Männer können das auch tragen
+ttresearch.page.ICHORCLOTH_CHEST_GEM.0=Du hast einen Weg gefunden, die Ichortuchrobe in eine noch mächtigere Form umzuwandeln.<BR><BR>Erstens wird das bloße tragen dieser Robe die Gabe des Fliegens verleihen (inklusive Flügeln, die nicht nach 5 Minuten verbrennen) sowie allen Fallschaden annullieren.<BR>Die Robe schützt den Träger auch vor allen eintreffenden Projektilen, gleich dem Fokus der Verzerrung.
 
 # -- LEGGINGS OF THE BURNING MANTLE
-ttresearch.name.ICHORCLOTH_LEGS_GEM=Hose der Brennenden HÃ¼lle
-ttresearch.lore.ICHORCLOTH_LEGS_GEM=Ein warmes GefÃ¼hl
-ttresearch.page.ICHORCLOTH_LEGS_GEM.0=Du hast einen Weg gefunden, die Ichortuchhose in eine noch mÃ¤chtigere Form umzuwandeln.<BR><BR>Diese Hose ist mit der Seele des Feuers versetzt.<BR>Zum einen erschafft sie ein Licht um den TrÃ¤ger herum, heller noch als das des Hyperenergetischen Nitors. Das Licht erweitert sich auch zum Ort, auf den der TrÃ¤ger schaut, gleich einer Taschenlampe, und bringt die Existenz des Erschaffers in grÃ¶ÃŸerer Weite zur Geltung.<BR>ZusÃ¤tzlich bietet diese Hose nicht nur Feuerresistenz, sie wandelt auch allen erhaltenen Feuerschaden in Heilung um.
+ttresearch.name.ICHORCLOTH_LEGS_GEM=Hose der Brennenden Hülle
+ttresearch.lore.ICHORCLOTH_LEGS_GEM=Ein warmes Gefühl
+ttresearch.page.ICHORCLOTH_LEGS_GEM.0=Du hast einen Weg gefunden, die Ichortuchhose in eine noch mächtigere Form umzuwandeln.<BR><BR>Diese Hose ist mit der Seele des Feuers versetzt.<BR>Zum einen erschafft sie ein Licht um den Träger herum, heller noch als das des Hyperenergetischen Nitors. Das Licht erweitert sich auch zum Ort, auf den der Träger schaut, gleich einer Taschenlampe, und bringt die Existenz des Erschaffers in größerer Weite zur Geltung.<BR>Zusätzlich bietet diese Hose nicht nur Feuerresistenz, sie wandelt auch allen erhaltenen Feuerschaden in Heilung um.
 ttresearch.page.ICHORCLOTH_LEGS_GEM.1=Solltest du, warum auch immer, einmal im Dunkeln sein wollen, kannst du mit der Hose Shift-klicken, um die Lichtfunktion zu aktivieren und zu deaktivieren.
 
 # -- BOOTS OF THE HORIZONTAL SHIELD
 ttresearch.name.ICHORCLOTH_BOOTS_GEM=Stiefel des Horizontalen Schildes
 ttresearch.lore.ICHORCLOTH_BOOTS_GEM=Von Winterfell nach King's Landing im Kinderspiel
-ttresearch.page.ICHORCLOTH_BOOTS_GEM.0=Du hast einen Weg gefunden, die Ichortuchstiefel in eine noch mÃ¤chtigere Form umzuwandeln.<BR><BR>Diese Stiefel erlauben extrem geschmeidige Bewegungen, gleich den Stiefeln des Reisenden. Geschwindigkeit, SprunghÃ¶he und Sprungreichweite des TrÃ¤gers werden durch das Tragen der Stiefel erhÃ¶ht, was Bewegung zu einem Kinderspiel macht. Er kann auch Ã¼ber 1 Block hohe AnhÃ¶hen gehen, als wÃ¤ren sie Stufen, dies kann durch Schleichen unterdrÃ¼ckt werden.<BR>Das Tragen der Stiefel gibt auch konstanten Eile-II-Effekt, verwandelt allen Dreck unterhalb in Gras und negiert jeglichen Fallschaden.
+ttresearch.page.ICHORCLOTH_BOOTS_GEM.0=Du hast einen Weg gefunden, die Ichortuchstiefel in eine noch mächtigere Form umzuwandeln.<BR><BR>Diese Stiefel erlauben extrem geschmeidige Bewegungen, gleich den Stiefeln des Reisenden. Geschwindigkeit, Sprunghöhe und Sprungreichweite des Trägers werden durch das Tragen der Stiefel erhöht, was Bewegung zu einem Kinderspiel macht. Er kann auch über 1 Block hohe Anhöhen gehen, als wären sie Stufen, dies kann durch Schleichen unterdrückt werden.<BR>Das Tragen der Stiefel gibt auch konstanten Eile-II-Effekt, verwandelt allen Dreck unterhalb in Gras und negiert jeglichen Fallschaden.
 
 # -- FELINE AMULET
 ttresearch.name.CAT_AMULET=Katzenamulett
-ttresearch.lore.CAT_AMULET=In der Cafeteria wird nicht mit Katzen gekÃ¤mpft
-ttresearch.page.CAT_AMULET.0=Es dauerte nicht lange, bis du zu dem Schluss kamst, dass du all die Male hasst, wenn sich ein Creeper an dich anschlich.<BR><BR>Um das zu beenden, hast du, das Wissen nutzend, dass Creeper vor Katzen fliehen, ein Amulett erdacht, dass, wenn lediglich getragen, alle Creeper vor Furcht vor deiner PrÃ¤senz fliehen lÃ¤sst. Nicht nur das, denn sie werden so stark gelÃ¤hmt sein, dass sie es nicht fertigbringen werden, zu explodieren. GroÃŸartig.
+ttresearch.lore.CAT_AMULET=In der Cafeteria wird nicht mit Katzen gekämpft
+ttresearch.page.CAT_AMULET.0=Es dauerte nicht lange, bis du zu dem Schluss kamst, dass du all die Male hasst, wenn sich ein Creeper an dich anschlich.<BR><BR>Um das zu beenden, hast du, das Wissen nutzend, dass Creeper vor Katzen fliehen, ein Amulett erdacht, dass, wenn lediglich getragen, alle Creeper vor Furcht vor deiner Präsenz fliehen lässt. Nicht nur das, denn sie werden so stark gelähmt sein, dass sie es nicht fertigbringen werden, zu explodieren. Großartig.
 
 # -- ICHORIUM TOOLS
 ttresearch.name.ICHOR_TOOLS=Ichoriumwerkzeug
-ttresearch.lore.ICHOR_TOOLS=Die hÃ¶chste Stufe aller Ratt... Werkzeuge
-ttresearch.page.ICHOR_TOOLS.0=Du hast entdeckt, wie man Werkzeug aus Ichorium herstellt. Diese Werkzeuge sind extrem mÃ¤chtig, noch mÃ¤chtiger als Diamant, zusÃ¤tzlich werden sie niemals zerbrechen.<BR><BR>FÃ¼r die Kreierung dieser Werkzeuge sind gewÃ¶hnliche StÃ¶cke nicht genug, du entschiedest dich, stattdessen SilberholzstÃ¤be zu verwenden.
+ttresearch.lore.ICHOR_TOOLS=Die höchste Stufe aller Ratt... Werkzeuge
+ttresearch.page.ICHOR_TOOLS.0=Du hast entdeckt, wie man Werkzeug aus Ichorium herstellt. Diese Werkzeuge sind extrem mächtig, noch mächtiger als Diamant, zusätzlich werden sie niemals zerbrechen.<BR><BR>Für die Kreierung dieser Werkzeuge sind gewöhnliche Stöcke nicht genug, du entschiedest dich, stattdessen Silberholzstäbe zu verwenden.
 
 # -- AWAKENED ICHORIUM PICKAXE
 ttresearch.name.ICHOR_PICK_GEM=Erweckte Ichoriumspitzhacke
 ttresearch.lore.ICHOR_PICK_GEM=Wer braucht schon einen Steinbruch?
-ttresearch.page.ICHOR_PICK_GEM.0=Du hast das wahre Potential einer Ichoriumspitzhacke erweckt. Diese Spitzhacke enthÃ¤lt alle Eigenschaften der regulÃ¤ren, jedoch kannst du mit einem Shift-Rechtsklick den Modus Ã¤ndern, in dem sie sich befindet.<BR><BR>Im Block-Modus (GrÃ¼n) wird sie BlÃ¶cke normal abbauen.<BR><BR>Im Quadrat-Modus (Rot) wird sie ein 5x5-Feld um den abzubauenden Block herum abbauen.<BR><BR>Im Linien-Modus (Blau) wird sie eine 10-Block lange Linie, beginnend bei dem abzubauenden Block, abbauen.
+ttresearch.page.ICHOR_PICK_GEM.0=Du hast das wahre Potential einer Ichoriumspitzhacke erweckt. Diese Spitzhacke enthält alle Eigenschaften der regulären, jedoch kannst du mit einem Shift-Rechtsklick den Modus ändern, in dem sie sich befindet.<BR><BR>Im Block-Modus (Grün) wird sie Blöcke normal abbauen.<BR><BR>Im Quadrat-Modus (Rot) wird sie ein 5x5-Feld um den abzubauenden Block herum abbauen.<BR><BR>Im Linien-Modus (Blau) wird sie eine 10-Block lange Linie, beginnend bei dem abzubauenden Block, abbauen.
 
 # -- AWAKENED ICHORIUM SHOVEL
 ttresearch.name.ICHOR_SHOVEL_GEM=Erweckte Ichoriumschaufel
 ttresearch.lore.ICHOR_SHOVEL_GEM=Hier war im Englischen ein Wortspiel
-ttresearch.page.ICHOR_SHOVEL_GEM.0=Du hast das wahre Potential einer Ichoriumschaufel erweckt. Diese Schaufel enthÃ¤lt alle Eigenschaften der regulÃ¤ren, jedoch kannst du mit einem Shift-Rechtsklick den Modus Ã¤ndern, in dem sie sich befindet.<BR><BR>Im Block-Modus (GrÃ¼n) wird sie BlÃ¶cke normal abbauen.<BR><BR>Im Quadrat-Modus (Rot) wird sie ein 5x5-Feld um den abzubauenden Block herum abbauen.<BR><BR>Im SÃ¤ulen-Modus (Blau) wird sie eine SÃ¤ule des selben Blocktyps wie der abzubauende Block abbauen, 8 BlÃ¶cke ober- und unterhalb.
+ttresearch.page.ICHOR_SHOVEL_GEM.0=Du hast das wahre Potential einer Ichoriumschaufel erweckt. Diese Schaufel enthält alle Eigenschaften der regulären, jedoch kannst du mit einem Shift-Rechtsklick den Modus ändern, in dem sie sich befindet.<BR><BR>Im Block-Modus (Grün) wird sie Blöcke normal abbauen.<BR><BR>Im Quadrat-Modus (Rot) wird sie ein 5x5-Feld um den abzubauenden Block herum abbauen.<BR><BR>Im Säulen-Modus (Blau) wird sie eine Säule des selben Blocktyps wie der abzubauende Block abbauen, 8 Blöcke ober- und unterhalb.
 
 # -- AWAKENED ICHORIUM AXE
 ttresearch.name.ICHOR_AXE_GEM=Erweckte Ichoriumaxt
 ttresearch.lore.ICHOR_AXE_GEM=Bricht dich wie ein Kleeblatt
-ttresearch.page.ICHOR_AXE_GEM.0=Du hast das wahre Potential einer Ichoriumaxt erweckt. Diese Axt enthÃ¤lt alle Eigenschaften der regulÃ¤ren, jedoch kannst du mit einem Shift-Rechtsklick den Modus Ã¤ndern, in dem sie sich befindet.<BR><BR>Im Block-Modus (GrÃ¼n) wird sie BlÃ¶cke normal abbauen.<BR><BR>Im Quadrat-Modus (Rot) wird sie ein 5x5-Feld um den abzubauenden Block herum abbauen.<BR><BR>Im Baum-Modus (Blau) wird sie ganze BÃ¤ume fÃ¤llen, wenn nur einer ihrer BlÃ¶cke abgebaut wird.<BR><BR>Diese Axt ist auch beherrscht auch das vernichten der Pflanzenwelt extrem gut.
+ttresearch.page.ICHOR_AXE_GEM.0=Du hast das wahre Potential einer Ichoriumaxt erweckt. Diese Axt enthält alle Eigenschaften der regulären, jedoch kannst du mit einem Shift-Rechtsklick den Modus ändern, in dem sie sich befindet.<BR><BR>Im Block-Modus (Grün) wird sie Blöcke normal abbauen.<BR><BR>Im Quadrat-Modus (Rot) wird sie ein 5x5-Feld um den abzubauenden Block herum abbauen.<BR><BR>Im Baum-Modus (Blau) wird sie ganze Bäume fällen, wenn nur einer ihrer Blöcke abgebaut wird.<BR><BR>Diese Axt ist auch beherrscht auch das vernichten der Pflanzenwelt extrem gut.
 
 # -- AWAKENED ICHORIUM SWORD
 ttresearch.name.ICHOR_SWORD_GEM=Erwecktes Ichoriumschwert
 ttresearch.lore.ICHOR_SWORD_GEM=Mom's Messer
-ttresearch.page.ICHOR_SWORD_GEM.0=Du hast das wahre Potential eines Ichoriumschwerts erweckt. Dieses Schwert enthÃ¤lt alle Eigenschaften des regulÃ¤ren, jedoch kannst du mit einem Shift-Rechtsklick den Modus Ã¤ndern, in dem es sich befindet.<BR><BR>Im Einzel-Modus (GrÃ¼n) wird es Monster normal attackieren.<BR><BR>Im Bereichs-Modus (Rot) wird es alle Monster des selben Typs in einem 3-Block-Radius um das attackierte herum angreifen.<BR><BR>Im Seelen-Modus (Blau) wird es weniger Schaden verursachen als gewÃ¶hnlich, aber jeder Schlag wird dem Angreifer ein Seelenherz verleihen.<BR>[fortgesetzt]
-ttresearch.page.ICHOR_SWORD_GEM.1=Seelenherzen sind Herzen, die nur einmal verwendet werden kÃ¶nnen. Die werden als metallische Herzen unterhalb deiner Nahrungsanzeige stehen, wenn existent. Die blockieren Schaden, den der TrÃ¤ger erhalten wÃ¼rde, aber verschwinden in diesem Prozess.
+ttresearch.page.ICHOR_SWORD_GEM.0=Du hast das wahre Potential eines Ichoriumschwerts erweckt. Dieses Schwert enthält alle Eigenschaften des regulären, jedoch kannst du mit einem Shift-Rechtsklick den Modus ändern, in dem es sich befindet.<BR><BR>Im Einzel-Modus (Grün) wird es Monster normal attackieren.<BR><BR>Im Bereichs-Modus (Rot) wird es alle Monster des selben Typs in einem 3-Block-Radius um das attackierte herum angreifen.<BR><BR>Im Seelen-Modus (Blau) wird es weniger Schaden verursachen als gewöhnlich, aber jeder Schlag wird dem Angreifer ein Seelenherz verleihen.<BR>[fortgesetzt]
+ttresearch.page.ICHOR_SWORD_GEM.1=Seelenherzen sind Herzen, die nur einmal verwendet werden können. Die werden als metallische Herzen unterhalb deiner Nahrungsanzeige stehen, wenn existent. Die blockieren Schaden, den der Träger erhalten würde, aber verschwinden in diesem Prozess.
 
 # -- BOTTOMLESS POUCH
 ttresearch.name.ICHOR_POUCH=Bodenloser Beutel
 ttresearch.lore.ICHOR_POUCH=Haha, he said bottom
-ttresearch.page.ICHOR_POUCH.0=Indem du einen Fokusbeutel mit Items wie dem Tragbaren Loch versetzt hast, hast du es nicht nur geschafft, ihm zu ermÃ¶glichen, anderes als Foki zu halten, sondern auch, seine SpeichergrÃ¶ÃŸe massiv zu erweitern.<BR><BR>Dieser Beutel kann nicht nur mehr halten als vier Truhen, er dient auch immer noch als gewÃ¶hnlicher Fokusbeutel, was es Foki in ihm ermÃ¶glicht, sich wie gewohnt auf den Stab aufzusetzen. Sag deinen Inventarproblemen Auf Wiedersehen.
+ttresearch.page.ICHOR_POUCH.0=Indem du einen Fokusbeutel mit Items wie dem Tragbaren Loch versetzt hast, hast du es nicht nur geschafft, ihm zu ermöglichen, anderes als Foki zu halten, sondern auch, seine Speichergröße massiv zu erweitern.<BR><BR>Dieser Beutel kann nicht nur mehr halten als vier Truhen, er dient auch immer noch als gewöhnlicher Fokusbeutel, was es Foki in ihm ermöglicht, sich wie gewohnt auf den Stab aufzusetzen. Sag deinen Inventarproblemen Auf Wiedersehen.
 
 # -- BLACK HOLE TALISMAN
 ttresearch.name.BLOCK_TALISMAN=Schwarzloch-Talisman
-ttresearch.lore.BLOCK_TALISMAN=Mehr Pascal als dein Hirn aushÃ¤lt
-ttresearch.page.BLOCK_TALISMAN.0=Dieser Talisman kann jeglichen Block kompensieren, rechtsklicke einfach mit ihm auf den Blocktypen, auf den du ihn einstellen mÃ¶chtest, wenn via Rechtsklick aktiviert, wird er allen Ãœberschuss (mehr als 1 Stapel) an diesem Block aus deinem Inventar absorbieren, und sichergehen, dass sich immer mindestens ein Stapel dort befindet. Durch Rechtsklick kann der Inhalt in einem anderen Inventar platziert werden, oder wie ein normaler Block.<BR><BR>Er kann Ã¼ber 2 Billionen BlÃ¶cke des selben Typs speichern. Anscheinend wird inventarverstopfender Pflasterstein kein Problem mehr sein. Wenn der Talisman leer ist, kann mit Rechtsklick auf einen anderen Block seine Bindung verÃ¤ndert werden.
+ttresearch.lore.BLOCK_TALISMAN=Mehr Pascal als dein Hirn aushält
+ttresearch.page.BLOCK_TALISMAN.0=Dieser Talisman kann jeglichen Block kompensieren, rechtsklicke einfach mit ihm auf den Blocktypen, auf den du ihn einstellen möchtest, wenn via Rechtsklick aktiviert, wird er allen Überschuss (mehr als 1 Stapel) an diesem Block aus deinem Inventar absorbieren, und sichergehen, dass sich immer mindestens ein Stapel dort befindet. Durch Rechtsklick kann der Inhalt in einem anderen Inventar platziert werden, oder wie ein normaler Block.<BR><BR>Er kann über 2 Billionen Blöcke des selben Typs speichern. Anscheinend wird inventarverstopfender Pflasterstein kein Problem mehr sein. Wenn der Talisman leer ist, kann mit Rechtsklick auf einen anderen Block seine Bindung verändert werden.
 
 # -- WORLDSHAPER'S LOOKING GLASS
 ttresearch.name.PLACEMENT_MIRROR=Sichtglas des Weltenformers
 ttresearch.lore.PLACEMENT_MIRROR=Quecksilberauge
-ttresearch.page.PLACEMENT_MIRROR.0=Durch das Studieren der Welt hast du ein Glas konstruiert, das dir erlaubt, allein durch Gedankenkraft eine groÃŸe Menge an BlÃ¶cken in der Welt zu platzieren.<BR><BR>Um den zu platzierenden Block einzustellen, wÃ¼rdest du mit dem Glas auf den Block Shift-rechtsklicken. Das Shift-Rechtsklicken des Items in der Luft Ã¤ndert die Menge an BlÃ¶cken, die platziert werden.<BR><BR>Wenn BlÃ¶cke in der Welt platziert werden, wird eine Phantom-Version, die zeigt, wie die BlÃ¶cke platziert werden wÃ¼rden, erscheinen. Mit Rechtsklick werden die BlÃ¶cke verbraucht und platziert, entweder vom Inventar oder einem Schwarzloch-Talisman, der den benÃ¶tigten Block enthÃ¤lt.
+ttresearch.page.PLACEMENT_MIRROR.0=Durch das Studieren der Welt hast du ein Glas konstruiert, das dir erlaubt, allein durch Gedankenkraft eine große Menge an Blöcken in der Welt zu platzieren.<BR><BR>Um den zu platzierenden Block einzustellen, würdest du mit dem Glas auf den Block Shift-rechtsklicken. Das Shift-Rechtsklicken des Items in der Luft ändert die Menge an Blöcken, die platziert werden.<BR><BR>Wenn Blöcke in der Welt platziert werden, wird eine Phantom-Version, die zeigt, wie die Blöcke platziert werden würden, erscheinen. Mit Rechtsklick werden die Blöcke verbraucht und platziert, entweder vom Inventar oder einem Schwarzloch-Talisman, der den benötigten Block enthält.
 
 # -- WAND FOCUS: SHADOWBEAM
 ttresearch.name.FOCUS_SHADOWBEAM=Stabfokus: Dunkelstrahl
-ttresearch.lore.FOCUS_SHADOWBEAM=BeschÃ¼tzt von einem alten Mann
-ttresearch.page.FOCUS_SHADOWBEAM.0=Du hast einen Fokus kreiert, der einen Energiestrahl verschieÃŸt, der allem in seinem Weg Schaden zufÃ¼gt.<BR><BR>Der Strahl hat eine ordentliche Reichweite und wird von jeglichen BlÃ¶cken reflektiert, als wÃ¤ren sie Spiegel.
+ttresearch.lore.FOCUS_SHADOWBEAM=Beschützt von einem alten Mann
+ttresearch.page.FOCUS_SHADOWBEAM.0=Du hast einen Fokus kreiert, der einen Energiestrahl verschießt, der allem in seinem Weg Schaden zufügt.<BR><BR>Der Strahl hat eine ordentliche Reichweite und wird von jeglichen Blöcken reflektiert, als wären sie Spiegel.
 
 # -- WAND FOCUS: EXPERIENCE DRAIN
 ttresearch.name.FOCUS_XP_DRAIN=Stabfokus: Erfahrungsabsorption
 ttresearch.lore.FOCUS_XP_DRAIN=Umweltfreundliches Vis
-ttresearch.page.FOCUS_XP_DRAIN.0=Nachdem du einen Stab kreiert hast, der eine gewaltige Menge Vis speichern kann, kamst du zu dem Schluss, dass du eine alternative Quelle fÃ¼r Vis benÃ¶tigst.<BR><BR>Deshalb hast du einen Fokus kreiert, der deine Erfahrungspunkte absorbiert, um sie schnell, aber nicht sehr effizient in Vis umzuwandeln.
+ttresearch.page.FOCUS_XP_DRAIN.0=Nachdem du einen Stab kreiert hast, der eine gewaltige Menge Vis speichern kann, kamst du zu dem Schluss, dass du eine alternative Quelle für Vis benötigst.<BR><BR>Deshalb hast du einen Fokus kreiert, der deine Erfahrungspunkte absorbiert, um sie schnell, aber nicht sehr effizient in Vis umzuwandeln.
 
 # -- PROTOCLAY
 ttresearch.name.PROTOCLAY=Protolehm
-ttresearch.lore.PROTOCLAY=Gestohlen aus der SchÃ¶pfung
-ttresearch.page.PROTOCLAY.0=Du wurdest es satt, deine Werkzeuge kontinuierlich auswechseln zu mÃ¼ssen.<BR><BR>Diese Mixtur wird, durch Verschmelzen mit dem Ichorium, jegliches Erwecktes Ichoriumwerkzeug in deiner Hand mit dem auswechseln, das fÃ¼r den abzubauenden Block benÃ¶tigt wird, falls versucht wird, ihn mit dem falschen Werkzeug abzubauen.<BR><BR>Als Beispiel, solltest du versuchen, einen Erdblock mit einer Erweckten Ichoriumspitzhacke abzubauen, wÃ¤hrend sich eine Schaufel in deinem Inventar befindet, werden beide gewechselt und dir somit ermÃ¶glicht, den Erdblock schnell zu beseitigen.
+ttresearch.lore.PROTOCLAY=Gestohlen aus der Schöpfung
+ttresearch.page.PROTOCLAY.0=Du wurdest es satt, deine Werkzeuge kontinuierlich auswechseln zu müssen.<BR><BR>Diese Mixtur wird, durch Verschmelzen mit dem Ichorium, jegliches Erwecktes Ichoriumwerkzeug in deiner Hand mit dem auswechseln, das für den abzubauenden Block benötigt wird, falls versucht wird, ihn mit dem falschen Werkzeug abzubauen.<BR><BR>Als Beispiel, solltest du versuchen, einen Erdblock mit einer Erweckten Ichoriumspitzhacke abzubauen, während sich eine Schaufel in deinem Inventar befindet, werden beide gewechselt und dir somit ermöglicht, den Erdblock schnell zu beseitigen.
 
 # -- CELESTIAL GATEWAY
 ttresearch.name.WARP_GATE=Himmelstor
 ttresearch.lore.WARP_GATE=EM-Wellenwechsel
-ttresearch.page.WARP_GATE.0=Du hast einen komplexen Mechanismus erdacht, der es dir erlaubt, deine eigene Position in der Welt zu verÃ¤ndern. Dieser Block wird, wenn er Himmelsperlen enthÃ¤lt (siehe nÃ¤chste Seite), erlauben, sich zu verschiedenen Punkten in der Welt zu teleportieren.<BR><BR>Eine Gesamtzahl von 10 Orten kann eingestellt werden. Du kannst andere Tore daran hindern, sich mit einem bestimmten zu verbinden, indem du das in der GUI des Blocks (die du per Rechtsklick Ã¶ffnen kannst) einstellst.<BR><BR>Um eine Liste verfÃ¼gbarer Ziele aufzurufen, schleiche auf dem Block.
-ttresearch.page.WARP_GATE.1=Um Zielorte eines Tores einzustellen, mÃ¼ssen sie mit Himmelsperlen markiert werden. Diese Items kÃ¶nnen mit Shift-Rechtsklick auf ein Himmelstor die Position dieses Tores markieren (Anmerkung: Shift-rechtsklicke in Luft, um den Ort zu lÃ¶schen).<BR><BR>Wenn du die Perlen in ein Himmelstor platzierst, ermÃ¶glicht das, sich zu dem Himmelstor, an das die Perle gebunden ist, zu teleportieren. Dieser Teleport ist nur in eine Richtung mÃ¶glich, somit sind zwei Perlen fÃ¼r den Teleport hin und zurÃ¼ck nÃ¶tig.<BR><BR>Wenn du diese Perlen in einem Amboss umbenennst, werden ihre Namen in der GUI des Tores angezeigt, was einfache Kennzeichnung erlaubt.
+ttresearch.page.WARP_GATE.0=Du hast einen komplexen Mechanismus erdacht, der es dir erlaubt, deine eigene Position in der Welt zu verändern. Dieser Block wird, wenn er Himmelsperlen enthält (siehe nächste Seite), erlauben, sich zu verschiedenen Punkten in der Welt zu teleportieren.<BR><BR>Eine Gesamtzahl von 10 Orten kann eingestellt werden. Du kannst andere Tore daran hindern, sich mit einem bestimmten zu verbinden, indem du das in der GUI des Blocks (die du per Rechtsklick öffnen kannst) einstellst.<BR><BR>Um eine Liste verfügbarer Ziele aufzurufen, schleiche auf dem Block.
+ttresearch.page.WARP_GATE.1=Um Zielorte eines Tores einzustellen, müssen sie mit Himmelsperlen markiert werden. Diese Items können mit Shift-Rechtsklick auf ein Himmelstor die Position dieses Tores markieren (Anmerkung: Shift-rechtsklicke in Luft, um den Ort zu löschen).<BR><BR>Wenn du die Perlen in ein Himmelstor platzierst, ermöglicht das, sich zu dem Himmelstor, an das die Perle gebunden ist, zu teleportieren. Dieser Teleport ist nur in eine Richtung möglich, somit sind zwei Perlen für den Teleport hin und zurück nötig.<BR><BR>Wenn du diese Perlen in einem Amboss umbenennst, werden ihre Namen in der GUI des Tores angezeigt, was einfache Kennzeichnung erlaubt.
 
 # -- WAND FOCUS: RECALL
-ttresearch.name.FOCUS_RECALL=Stabfokus: HimmelsrÃ¼ckruf
+ttresearch.name.FOCUS_RECALL=Stabfokus: Himmelsrückruf
 ttresearch.lore.FOCUS_RECALL=Home is where the Hearthstone is
-ttresearch.page.FOCUS_RECALL.0=Himmelstore fÃ¼r Teleportation zu nutzen, ist schÃ¶n und gut, aber du hast dich entschieden, einen Schritt weiter zu gehen und einen Fokus zu kreieren, der genau das kann, nur von Ã¼berall.<BR><BR>Dieser Fokus wird, wenn sich eine gebundene Himmelsperle in der Hotbar befindet, den Nutzer, nach kurzer Zauberzeit, zu jener Position teleportieren, als hÃ¤tte er ein Himmelstor verwendet. SelbstverstÃ¤ndlich benÃ¶tigt das Teleportieren Vis aus deinem Stab.
+ttresearch.page.FOCUS_RECALL.0=Himmelstore für Teleportation zu nutzen, ist schön und gut, aber du hast dich entschieden, einen Schritt weiter zu gehen und einen Fokus zu kreieren, der genau das kann, nur von überall.<BR><BR>Dieser Fokus wird, wenn sich eine gebundene Himmelsperle in der Hotbar befindet, den Nutzer, nach kurzer Zauberzeit, zu jener Position teleportieren, als hätte er ein Himmelstor verwendet. Selbstverständlich benötigt das Teleportieren Vis aus deinem Stab.
+
+# -- WAILA
+ttwaila.nothing=Nichts
+ttwaila.currentTool=Aktuelles Werkzeug:  %s
+ttwaila.leftClick=Linksklick
+ttwaila.rightClick=Rechtsklick
+ttwaila.redstone=Redstone-Aktiviert
+ttwaila.autonomous=Autonom
+ttwaila.connected=Verbunden mit: %s
+ttwaila.repairing=Repariert: %s
+ttwaila.finishedRepairing=Reparieren beendet: %s
+ttwaila.allowIncoming=Erlaubt eingehende Teleports
+ttwaila.disallowIncoming=Erlaubt keine eingehenden Teleports
+ttwaila.pushingMode=Modus: Abstoßen
+ttwaila.pullingMode=Modus: Anziehen
+ttwaila.pushing=Abstoßen
+ttwaila.pulling=Anziehen
+ttwaila.pullingAdult=Anziehend: Erwachsene
+ttwaila.pullingChild=Anziehend: Kinder
+ttwaila.pushingAdult=Abstoßend: Erwachsene
+ttwaila.pushingChild=Abstoßend: Kinder
+ttwaila.pullingAdultType=Anziehend: %s (Erwachsen)
+ttwaila.pullingChildType=Anziehend: %s (Kind)
+ttwaila.pushingAdultType=Abstoßend: %s (Erwachsen)
+ttwaila.pushingChildType=Abstoßend: %s (Kind)
