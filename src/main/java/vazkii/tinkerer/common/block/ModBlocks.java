@@ -18,8 +18,6 @@ import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import vazkii.tinkerer.common.block.kami.BlockWarpGate;
-import vazkii.tinkerer.common.block.mobilizer.BlockMobilizer;
-import vazkii.tinkerer.common.block.mobilizer.BlockMobilizerRelay;
 import vazkii.tinkerer.common.block.quartz.BlockDarkQuartz;
 import vazkii.tinkerer.common.block.quartz.BlockDarkQuartzSlab;
 import vazkii.tinkerer.common.block.quartz.BlockDarkQuartzStairs;
@@ -59,9 +57,6 @@ public final class ModBlocks {
 
 	public static Block warpGate;
 
-	public static Block mobilizerRelay;
-
-	public static Block mobilizer;
 
 	public static void initBlocks() {
 		darkQuartz = new BlockDarkQuartz(LibBlockIDs.idDarkQuartz).setUnlocalizedName(LibBlockNames.DARK_QUARTZ);
@@ -80,9 +75,6 @@ public final class ModBlocks {
 		repairer = new BlockRepairer(LibBlockIDs.idRepairer).setUnlocalizedName(LibBlockNames.REPAIRER);
 		aspectAnalyzer = new BlockAspectAnalyzer(LibBlockIDs.idAspectAnalyzer).setUnlocalizedName(LibBlockNames.ASPECT_ANALYZER);
 		platform = new BlockPlatform(LibBlockIDs.idPlatform).setUnlocalizedName(LibBlockNames.PLATFORM);
-
-		mobilizerRelay = new BlockMobilizerRelay(LibBlockIDs.idMobilizerRelay).setUnlocalizedName(LibBlockNames.MOBILIZER_RELAY);
-		mobilizer = new BlockMobilizer(LibBlockIDs.idMobilizer).setUnlocalizedName(LibBlockNames.MOBILIZER);
 
 		if(ConfigHandler.enableKami) {
 			warpGate = new BlockWarpGate(LibBlockIDs.idWarpGate).setUnlocalizedName(LibBlockNames.WARP_GATE);
@@ -108,10 +100,6 @@ public final class ModBlocks {
 		GameRegistry.registerBlock(repairer, LibBlockNames.REPAIRER);
 		GameRegistry.registerBlock(aspectAnalyzer, LibBlockNames.ASPECT_ANALYZER);
 		GameRegistry.registerBlock(platform, LibBlockNames.PLATFORM);
-
-		GameRegistry.registerBlock(mobilizerRelay, LibBlockNames.MOBILIZER_RELAY);
-
-		GameRegistry.registerBlock(mobilizer, LibBlockNames.MOBILIZER);
 
 		if(ConfigHandler.enableKami) {
 			GameRegistry.registerBlock(warpGate, ItemBlockWarpGate.class, LibBlockNames.WARP_GATE);
