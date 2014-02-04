@@ -141,7 +141,7 @@ public final class ModResearch {
 		research = new TTResearchItem(LibResearch.KEY_REPAIRER, LibResearch.CATEGORY_ALCHEMY, new AspectList().add(Aspect.TOOL, 2).add(Aspect.CRAFT, 1).add(Aspect.ORDER, 1).add(Aspect.MAGIC, 1), 6, 2, 3, new ItemStack(ModBlocks.repairer)).setConcealed().setParents("TUBES").setParentsHidden("THAUMIUM", "ENCHFABRIC").registerResearchItem();
 		research.setPages(new ResearchPage("0"), infusionPage(LibResearch.KEY_REPAIRER));
 
-		research = new TTResearchItem(LibResearch.KEY_PLATFORM, LibResearch.CATEGORY_ARTIFICE, new AspectList().add(Aspect.SENSES, 2).add(Aspect.TREE, 1).add(Aspect.MOTION, 1), -2, -1, 3, new ItemStack(ModBlocks.platform)).setConcealed().setParents("MOBILIZER").registerResearchItem();
+		research = new TTResearchItem(LibResearch.KEY_PLATFORM, LibResearch.CATEGORY_ARTIFICE, new AspectList().add(Aspect.SENSES, 2).add(Aspect.TREE, 1).add(Aspect.MOTION, 1), -2, -1, 3, new ItemStack(ModBlocks.platform)).setConcealed().setParents("LEVITATOR").registerResearchItem();
 		research.setPages(new ResearchPage("0"), arcaneRecipePage(LibResearch.KEY_PLATFORM));
 
 		// Peripheral documentation research
@@ -249,6 +249,7 @@ public final class ModResearch {
 		ResourceLocation background = new ResourceLocation("thaumcraft", "textures/gui/gui_researchback.png");
 
 		ResearchCategories.registerCategory(LibResearch.CATEGORY_ENCHANTING, new ResourceLocation(LibResources.MISC_R_ENCHANTING), background);
+		//ResearchCategories.registerCategory(LibResearch.CATEGORY_TINKERS, new ResourceLocation(LibResources.MISC_R_ENCHANTING), background);
 	}
 
 	private static ResearchPage recipePage(String name) {

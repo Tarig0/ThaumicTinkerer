@@ -23,6 +23,7 @@ public final class LibResearch {
 	public static final String CATEGORY_GOLEMANCY = "GOLEMANCY";
 
 	public static final String CATEGORY_ENCHANTING = "TT_ENCHANTING";
+	public static final String CATEGORY_TINKERS="TT_RESEARCH";
 
 	public static final String KEY_DARK_QUARTZ = "DARK_QUARTZ";
 	public static final String KEY_INTERFACE = "INTERFACE";
