@@ -36,6 +36,7 @@ import thaumcraft.common.blocks.ItemJarFilled;
 import thaumcraft.common.config.ConfigBlocks;
 import thaumcraft.common.config.ConfigItems;
 import thaumcraft.common.tiles.TileJarFillable;
+import thaumcraft.common.tiles.TileJarFillableVoid;
 import vazkii.tinkerer.common.lib.LibBlockNames;
 import cpw.mods.fml.common.network.PacketDispatcher;
 
@@ -58,9 +59,9 @@ public class TileFunnel extends TileEntity implements ISidedInventory, IAspectCo
 						TileEntity tile1 = getHopperFacing(tile.xCoord, tile.yCoord, tile.zCoord, tile.getBlockMetadata());
 						if(tile1 instanceof TileJarFillable) {
 							TileJarFillable jar1 = (TileJarFillable) tile1;
-
+							boolean voidJar=tile1 instanceof TileJarFillableVoid;
 							AspectList aspectList1 = jar1.getAspects();
-							if(aspectList1 != null && aspectList1.size() == 0 || aspectList1.getAspects()[0] == aspect && aspectList1.getAmount(aspectList1.getAspects()[0]) < 64) {
+							if(aspectList1 != null && aspectList1.size() == 0 || aspectList1.getAspects()[0] == aspect && (aspectList1.getAmount(aspectList1.getAspects()[0]) < 64 || voidJar)) {
 								jar1.addToContainer(aspect, 1);
 								item.setAspects(jar, aspectList.remove(aspect, 1));
 							}

@@ -47,7 +47,7 @@ public class PeripheralAspectContainer implements IHostedPeripheral {
 		switch(method) {
 			case 0 : {
 				List returnStuff = new ArrayList();
-				if(container.getAspects() == null)
+				if(container.getAspects() == null || container.getAspects().size()==0)
 					return new String[0];
 
 				for(Aspect aspect : container.getAspects().getAspectsSorted())
