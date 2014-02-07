@@ -14,10 +14,13 @@
  */
 package vazkii.tinkerer.common.item;
 
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
+import thaumcraft.common.entities.golems.EntityGolemBase;
+import thaumcraft.common.entities.golems.EnumGolemType;
 import vazkii.tinkerer.common.block.tile.transvector.TileTransvector;
 import vazkii.tinkerer.common.block.tile.transvector.TileTransvectorInterface;
 import vazkii.tinkerer.common.core.helper.ItemNBTHelper;
@@ -43,6 +46,7 @@ public class ItemConnector extends ItemMod {
 			return false;
 
 		TileEntity tile = par3World.getBlockTileEntity(par4, par5, par6);
+
 		if (getY(par1ItemStack) == -1) {
 			if (tile != null && tile instanceof TileTransvector) {
 				setX(par1ItemStack, par4);
@@ -96,6 +100,7 @@ public class ItemConnector extends ItemMod {
 
 		return true;
 	}
+
 
 	private void playSound(World world, int x, int y, int z) {
 		if(!world.isRemote)
