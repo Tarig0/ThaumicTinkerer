@@ -5,7 +5,6 @@ import appeng.api.Util;
 import appeng.api.movable.IMovableTile;
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.AxisAlignedBB;
@@ -97,10 +96,8 @@ public class TileEntityMobilizer extends TileEntity {
 
 				//Move Entities
 				List<Entity> entities = worldObj.getEntitiesWithinAABB(Entity.class, AxisAlignedBB.getBoundingBox(xCoord, yCoord, zCoord, xCoord+1, yCoord+3, zCoord+1));
-				
+				System.out.print(entities);
 				for(Entity e: entities){
-					if(e instanceof EntityPlayer && !e.isSneaking())
-						continue;
 					e.setPosition(e.posX+movementDirection.offsetX, e.posY, e.posZ+movementDirection.offsetZ);
 				}
 
@@ -109,9 +106,12 @@ public class TileEntityMobilizer extends TileEntity {
 
 					TileEntity passenger = worldObj.getBlockTileEntity(xCoord, yCoord+1, zCoord);
 					IAppEngApi api = Util.getAppEngApi();
-					if(passenger==null){
+
+					worldObj.setBlock(targetX, yCoord, targetZ, 1, 0, 0);
+
+					if(passenger==null && worldObj.getBlockId(xCoord, yCoord+1, zCoord) != 7){
 						worldObj.setBlock(targetX, yCoord+1, targetZ, worldObj.getBlockId(xCoord, yCoord+1, zCoord), worldObj.getBlockMetadata(xCoord, yCoord+1, zCoord), 3);
-						worldObj.setBlock(xCoord, yCoord+1, zCoord, 0);
+						worldObj.setBlock(xCoord, yCoord+1, zCoord, 0, 0, 2);
 					}else if(api != null){
 						if(api.getMovableRegistry().askToMove(passenger)){
 							worldObj.setBlock(targetX, yCoord + 1, targetZ, worldObj.getBlockId(xCoord, yCoord + 1, zCoord), worldObj.getBlockMetadata(xCoord, yCoord + 1, zCoord), 3);
@@ -147,7 +147,7 @@ public class TileEntityMobilizer extends TileEntity {
 					//Move self
 					this.invalidate();
 					worldObj.removeBlockTileEntity(xCoord, yCoord, zCoord);
-					worldObj.setBlock(xCoord, yCoord, zCoord, 0);
+					worldObj.setBlock(xCoord, yCoord, zCoord, 0, 0, 2);
 					worldObj.setBlock(targetX, yCoord, targetZ, LibBlockIDs.idMobilizer);
 
 					int oldX=xCoord;
@@ -159,7 +159,7 @@ public class TileEntityMobilizer extends TileEntity {
 					worldObj.addTileEntity(this);
 					worldObj.removeBlockTileEntity(oldX, yCoord, oldZ);
 
-
+					worldObj.notifyBlockChange(oldX, yCoord, oldZ, 0);
 
 				}
 
