@@ -50,7 +50,7 @@ shadow
 
 apply plugin: 'forge'
 
-version = "2.2b FC-85"
+version = "2.2b FC-86"
 group= "vazkii.tinkerer" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "ThaumicTinkerer"
 

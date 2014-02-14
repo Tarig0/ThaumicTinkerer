@@ -57,20 +57,20 @@ public class TileGolemConnector extends TileCamo implements IPeripheral {
 	}
 
 	
-	public String[] getGolemDecorations() throws Exception
+	public Object[] getGolemDecorations() throws Exception
     {
             if(golem==null ||golem.decoration==null || golem.decoration.length()==0)
                     return new String[]{};
-            String[] decorations=new String[golem.decoration.length()];
+            HashMap<Double,String> decorations=new HashMap<Double, String>();
             for(int i=0;i<golem.decoration.length();i++)
             {
                     EnumGolemDecorations golemDec=EnumGolemDecorations.getFromChar(golem.decoration.charAt(i));
                     if(golemDec==null)
                     	throw new Exception("Golem is wearing unknown accessory: "+golem.decoration.charAt(i));
-                    decorations[i]=StatCollector.translateToLocal(golemDec.getName());
+                    decorations.put((double) i,StatCollector.translateToLocal(golemDec.getName()));
             }
            
-            return decorations;
+            return new Object[]{decorations};
            
     }
 	public String[] getGolemCore() throws Exception
