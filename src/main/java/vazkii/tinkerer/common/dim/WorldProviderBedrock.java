@@ -17,7 +17,7 @@ public class WorldProviderBedrock extends WorldProvider {
 	private float[] colorsSunriseSunset = new float[4];
 	public void registerWorldChunkManager()
 	{
-		this.worldChunkMgr = new WorldChunkManagerHell(new BiomeGenBedrock(19), this.dimensionId, this.dimensionId);
+		this.worldChunkMgr = new WorldChunkManagerBedrock(new BiomeGenBedrock(ConfigHandler.bedrockBiomeID), this.dimensionId, this.dimensionId);
 		this.dimensionId = ConfigHandler.bedrockDimensionID;
 		this.hasNoSky = false;
 	}
