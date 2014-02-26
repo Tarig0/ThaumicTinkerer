@@ -91,3 +91,4 @@
 2.3-131=https://nekosune.ci.cloudbees.com/job/Thaumic%20Tinkerer/131//artifact/build/libs/ThaumicTinkerer-2.3-131.jar
 2.3-132=https://nekosune.ci.cloudbees.com/job/Thaumic%20Tinkerer/132//artifact/build/libs/ThaumicTinkerer-2.3-132.jar
 2.3-132=https://nekosune.ci.cloudbees.com/job/Thaumic%20Tinkerer/132//artifact/build/libs/ThaumicTinkerer-2.3-132.jar
+2.3-133=https://nekosune.ci.cloudbees.com/job/Thaumic%20Tinkerer/133//artifact/build/libs/ThaumicTinkerer-2.3-133.jar
